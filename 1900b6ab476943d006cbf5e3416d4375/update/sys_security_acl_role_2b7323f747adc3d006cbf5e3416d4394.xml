@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 10:57:37</sys_created_on>
+        <sys_id>2b7323f747adc3d006cbf5e3416d4394</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1952794_servic_0_servicedesk_incident.x_1952794_servic_0.admin</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_security_acl display_value="x_1952794_servic_0_servicedesk_incident">5b7323f747adc3d006cbf5e3416d438b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2b7323f747adc3d006cbf5e3416d4394</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 10:57:37</sys_updated_on>
+        <sys_user_role display_value="x_1952794_servic_0.admin" name="x_1952794_servic_0.admin">9900b6ab476943d006cbf5e3416d4387</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="89736fb747adc3d006cbf5e3416d4324" extends="task" label="servicedesk incident" max_length="40" name="x_1952794_servic_0_servicedesk_incident" type="collection">
+        <element label="Category" max_length="255" name="servicedesk_category" type="string"/>
+        <element label="Subcategory" max_length="255" name="servicedesk_subcategory" type="string"/>
+        <element display="true" label="ServiceDesk number" max_length="20" name="external_servicedesk_number" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="Requester" max_length="32" name="servicedesk_requester" reference="sys_user" type="reference"/>
+    </element>
+</database>
