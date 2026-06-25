@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="short_description" table="x_1952794_servic_0_servicedesk_incident" version="3">
-        <sys_choice_set action="INSERT_OR_UPDATE">
+    <sys_choice action="DELETE" field="short_description" table="x_1952794_servic_0_servicedesk_incident" version="3">
+        <sys_choice_set action="DELETE">
             <element>short_description</element>
             <name>x_1952794_servic_0_servicedesk_incident</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2026-06-25 11:09:40</sys_created_on>
+            <sys_id>c046a37f47adc3d006cbf5e3416d4379</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>short_description</sys_name>
             <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
@@ -15,195 +16,50 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
         </sys_choice_set>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Issue with a web page</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>0</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Issue with a web page</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Issue with email</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>1</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Issue with email</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Issue with networking</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>2</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Issue with networking</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>New employee hire</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>3</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>New employee hire</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Request for a Blackberry</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>4</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Request for a Blackberry</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Request for a new service</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>5</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Request for a new service</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Request for help</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>6</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Request for help</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Request for new or upgraded hardware</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>7</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Request for new or upgraded hardware</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Request for new or upgraded software</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>8</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Request for new or upgraded software</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>short_description</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Reset my password</label>
-            <language>en</language>
-            <name>x_1952794_servic_0_servicedesk_incident</name>
-            <sequence>9</sequence>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-06-25 11:09:40</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-06-25 11:09:40</sys_updated_on>
-            <value>Reset my password</value>
-        </sys_choice>
     </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</application>
+        <file_path/>
+        <instance_id>54f6f6a3eb1c8310cbbffceacad0cd9e</instance_id>
+        <instance_name>dev388916</instance_name>
+        <name>sys_choice_x_1952794_servic_0_servicedesk_incident_short_description</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="INSERT_OR_UPDATE" field="short_description" table="x_1952794_servic_0_servicedesk_incident" version="3"><sys_choice_set action="INSERT_OR_UPDATE"><element>short_description</element><name>x_1952794_servic_0_servicedesk_incident</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-25 11:09:40</sys_created_on><sys_id>c046a37f47adc3d006cbf5e3416d4379</sys_id><sys_mod_count>0</sys_mod_count><sys_name>short_description</sys_name><sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package><sys_policy/><sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope><sys_update_name>sys_choice_x_1952794_servic_0_servicedesk_incident_short_description</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-25 11:09:40</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>1622508124</payload_hash>
+        <record_name>servicedesk incident.short_description</record_name>
+        <reverted_from/>
+        <source>2c7632a7476943d006cbf5e3416d4320</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 13:33:11</sys_created_on>
+        <sys_id>6617844c47b107d006cbf5e3416d4346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19efefc0d700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 13:33:11</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>6217844cd0b107d03481cd7285070445</update_guid>
+        <update_guid_history>6217844cd0b107d03481cd7285070445:1622508124,2e17844c1eb107d0144d36d9b2926332:2094437976,2617844c56b107d08d47473b5dd6ec20:385774110,5617844cffb107d0ec5c3c3b8b275101:-1512078284,5e17444c5cb107d0c119753346b6edee:358556193,5617444c21b107d007c5d0cc81f3b3dc:1629822528,5e17444cbab107d0aa6f7162856270c9:1465151376,9e17444c25b107d0065d771509c6e5aa:-1946440242,de17444c55b107d0d52468f6200c028b:177766987,5617444c31b107d0c19527ca76105779:901507456,4046e37f38adc3d0c08cf523a14bfd72:-873513629</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 13:33:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>140a969531834247931c1dcd47e96171</sys_id>
+        <sys_metadata>c046a37f47adc3d006cbf5e3416d4379</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_parent display_value="x_1952794_servic_0_servicedesk_incident">c9736fb747adc3d006cbf5e3416d432a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_scope_delete display_value="">84cc0438c8ad482098d569f274360890</sys_scope_delete>
+        <sys_update_name>sys_choice_x_1952794_servic_0_servicedesk_incident_short_description</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_1952794_servic_0_servicedesk_incident_short_description">6617844c47b107d006cbf5e3416d4346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 13:33:12</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>

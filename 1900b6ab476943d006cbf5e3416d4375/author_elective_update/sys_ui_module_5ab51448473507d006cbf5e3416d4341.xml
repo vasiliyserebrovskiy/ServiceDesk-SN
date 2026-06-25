@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="ServiceDesk Integration">dc2a80c047f107d006cbf5e3416d43f4</application>
+        <filter table="x_1952794_servic_0_servicedesk_incident">state=1^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <name>Open Incidents</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles/>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 14:37:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5ab51448473507d006cbf5e3416d4341</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Incidents</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_ui_module_5ab51448473507d006cbf5e3416d4341</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 14:37:51</sys_updated_on>
+        <table>x_1952794_servic_0_servicedesk_incident</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</application>
+        <file_path/>
+        <instance_id>54f6f6a3eb1c8310cbbffceacad0cd9e</instance_id>
+        <instance_name>dev388916</instance_name>
+        <name>sys_ui_module_5ab51448473507d006cbf5e3416d4341</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ServiceDesk Integration">dc2a80c047f107d006cbf5e3416d43f4</application><filter table="x_1952794_servic_0_servicedesk_incident">state=1^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></filter><name>Open Incidents</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles/><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-25 14:37:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5ab51448473507d006cbf5e3416d4341</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open Incidents</sys_name><sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package><sys_policy/><sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope><sys_update_name>sys_ui_module_5ab51448473507d006cbf5e3416d4341</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-25 14:37:51</sys_updated_on><table>x_1952794_servic_0_servicedesk_incident</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-705245070</payload_hash>
+        <record_name>Open Incidents</record_name>
+        <reverted_from/>
+        <source>2c7632a7476943d006cbf5e3416d4320</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 14:37:51</sys_created_on>
+        <sys_id>69e51848473507d006cbf5e3416d43ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eff373fc80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 14:37:51</sys_updated_on>
+        <type>Module</type>
+        <update_guid>29e51848b23507d0ae05c8f00cb442eb</update_guid>
+        <update_guid_history>29e51848b23507d0ae05c8f00cb442eb:-705245070</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-25 15:49:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>19233dfe61084b0089c01174d48b9e10</sys_id>
+        <sys_metadata>5ab51448473507d006cbf5e3416d4341</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Open Incidents</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_scope_delete display_value="">84cc0438c8ad482098d569f274360890</sys_scope_delete>
+        <sys_update_name>sys_ui_module_5ab51448473507d006cbf5e3416d4341</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_5ab51448473507d006cbf5e3416d4341">69e51848473507d006cbf5e3416d43ec</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-25 15:49:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
