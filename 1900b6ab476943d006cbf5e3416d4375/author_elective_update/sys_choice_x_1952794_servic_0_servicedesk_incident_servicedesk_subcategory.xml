@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="servicedesk_subcategory" table="x_1952794_servic_0_servicedesk_incident" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>servicedesk_subcategory</element>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-26 14:11:12</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>servicedesk_subcategory</sys_name>
+            <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+            <sys_update_name>sys_choice_x_1952794_servic_0_servicedesk_incident_servicedesk_subcategory</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-26 14:11:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Hardware</dependent_value>
+            <element>servicedesk_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CPU</label>
+            <language>en</language>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-26 15:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-26 15:00:05</sys_updated_on>
+            <value>CPU</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Hardware</dependent_value>
+            <element>servicedesk_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Processor</label>
+            <language>en</language>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-26 15:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-26 15:00:05</sys_updated_on>
+            <value>Processor</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Hardware</dependent_value>
+            <element>servicedesk_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Memory</label>
+            <language>en</language>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-26 15:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-26 15:00:05</sys_updated_on>
+            <value>Memory</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Software</dependent_value>
+            <element>servicedesk_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teams</label>
+            <language>en</language>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-26 15:00:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-26 15:00:05</sys_updated_on>
+            <value>Teams</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>Network</dependent_value>
+            <element>servicedesk_subcategory</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Internet</label>
+            <language>en</language>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-06-26 15:00:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-06-26 15:00:05</sys_updated_on>
+            <value>Internet</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

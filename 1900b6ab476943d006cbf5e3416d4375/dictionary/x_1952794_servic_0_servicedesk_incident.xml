@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="89736fb747adc3d006cbf5e3416d4324" extends="task" label="servicedesk incident" max_length="40" name="x_1952794_servic_0_servicedesk_incident" type="collection">
-        <element label="Category" max_length="255" name="servicedesk_category" type="string"/>
-        <element label="Subcategory" max_length="255" name="servicedesk_subcategory" type="string"/>
-        <element display="true" label="ServiceDesk number" max_length="20" name="external_servicedesk_number" read_only="true" read_only_option="display_read_only" type="string"/>
-        <element label="Requester" max_length="32" name="servicedesk_requester" reference="sys_user" type="reference"/>
+        <element choice="1" display="true" label="Category" mandatory="true" max_length="255" name="servicedesk_category" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Software" sequence="1" value="Software"/>
+                <element inactive_on_update="false" label="Hardware" sequence="0" value="Hardware"/>
+                <element inactive_on_update="false" label="Network" sequence="2" value="Network"/>
+            </choice>
+        </element>
+        <element choice="1" dependent="servicedesk_category" dependent_on_field="servicedesk_category" label="Subcategory" max_length="255" name="servicedesk_subcategory" type="string" use_dependent_field="true">
+            <choice>
+                <element dependent_value="Hardware" inactive_on_update="false" label="CPU" sequence="0" value="CPU"/>
+                <element dependent_value="Software" inactive_on_update="false" label="Teams" sequence="3" value="Teams"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Memory" sequence="2" value="Memory"/>
+                <element dependent_value="Network" inactive_on_update="false" label="Internet" sequence="4" value="Internet"/>
+                <element dependent_value="Hardware" inactive_on_update="false" label="Processor" sequence="1" value="Processor"/>
+            </choice>
+        </element>
+        <element label="ServiceDesk number" max_length="20" name="external_servicedesk_number" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="Requester" mandatory="true" max_length="32" name="servicedesk_requester" reference="sys_user" type="reference"/>
     </element>
 </database>
