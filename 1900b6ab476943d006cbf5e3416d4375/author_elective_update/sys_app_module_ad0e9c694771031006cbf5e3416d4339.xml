@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="ServiceDesk Integration">ded81400477507d006cbf5e3416d43c2</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Priority Calculation`s</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1952794_servic_0_dl_priority_calculation</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1952794_servic_0.priority_calculation_user</roles>
+        <route/>
+        <screen/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:04:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ad0e9c694771031006cbf5e3416d4339</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority Calculation`s</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_app_module_ad0e9c694771031006cbf5e3416d4339</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:04:14</sys_updated_on>
+        <timeline_page/>
+        <title>Priority Calculation`s</title>
+        <uncancelable>false</uncancelable>
+        <ux_list/>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</application>
+        <file_path/>
+        <instance_id>54f6f6a3eb1c8310cbbffceacad0cd9e</instance_id>
+        <instance_name>dev388916</instance_name>
+        <name>sys_app_module_ad0e9c694771031006cbf5e3416d4339</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="ServiceDesk Integration">ded81400477507d006cbf5e3416d43c2</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Priority Calculation`s</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1952794_servic_0_dl_priority_calculation</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1952794_servic_0.priority_calculation_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-30 07:04:14</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ad0e9c694771031006cbf5e3416d4339</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Priority Calculation`s</sys_name><sys_overrides/><sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package><sys_policy/><sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope><sys_update_name>sys_app_module_ad0e9c694771031006cbf5e3416d4339</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-30 07:04:14</sys_updated_on><timeline_page/><title>Priority Calculation`s</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-2082150678</payload_hash>
+        <record_name>Priority Calculation`s</record_name>
+        <reverted_from/>
+        <source>2c7632a7476943d006cbf5e3416d4320</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:04:14</sys_created_on>
+        <sys_id>6d0e9c694771031006cbf5e3416d434d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f1757be680000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:04:14</sys_updated_on>
+        <type>Module</type>
+        <update_guid>2d0e9c69667103107dd2ecca1e6e6d4c</update_guid>
+        <update_guid_history>2d0e9c69667103107dd2ecca1e6e6d4c:-2082150678</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Priority Calculation`s">e17e14e94771031006cbf5e3416d4342</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:06:09</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>466f388a486440c39ae4bdd77c0fc859</sys_id>
+        <sys_metadata>ad0e9c694771031006cbf5e3416d4339</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Priority Calculation`s</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_scope_delete display_value="">84cc0438c8ad482098d569f274360890</sys_scope_delete>
+        <sys_update_name>sys_app_module_ad0e9c694771031006cbf5e3416d4339</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ad0e9c694771031006cbf5e3416d4339">6d0e9c694771031006cbf5e3416d434d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:06:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

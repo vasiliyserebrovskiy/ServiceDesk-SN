@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="x_1952794_servic_0_priority_matrix">
+    <x_1952794_servic_0_priority_matrix action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <impact>4</impact>
+        <order>100</order>
+        <priority>4</priority>
+        <sys_class_name>x_1952794_servic_0_priority_matrix</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:28:34</sys_created_on>
+        <sys_id>7f832c6547b1031006cbf5e3416d43d8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>x_1952794_servic_0_priority_matrix_7f832c6547b1031006cbf5e3416d43d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:28:34</sys_updated_on>
+        <urgency>3</urgency>
+    </x_1952794_servic_0_priority_matrix>
+</record_update>

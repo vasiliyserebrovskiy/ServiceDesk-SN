@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="INSERT_OR_UPDATE">
+        <dl_definition display_value="ServiceDesk Priority Calculation">e3e4e82947b1031006cbf5e3416d434f</dl_definition>
+        <exact_match>true</exact_match>
+        <matcher_table>x_1952794_servic_0_priority_matrix</matcher_table>
+        <matcher_table_field>urgency</matcher_table_field>
+        <source_table>x_1952794_servic_0_servicedesk_incident</source_table>
+        <source_table_field>urgency</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:38:00</sys_created_on>
+        <sys_id>f7a5e0a947b1031006cbf5e3416d43fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>urgency</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>dl_definition_rel_match_f7a5e0a947b1031006cbf5e3416d43fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:38:00</sys_updated_on>
+    </dl_definition_rel_match>
+</record_update>

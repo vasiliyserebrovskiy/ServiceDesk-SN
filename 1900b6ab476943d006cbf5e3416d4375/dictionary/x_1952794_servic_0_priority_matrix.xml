@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true,update_synch=true" db_object_id="542268a147b1031006cbf5e3416d4338" extends="dl_matcher" label="Priority Matrix" max_length="40" name="x_1952794_servic_0_priority_matrix" type="collection">
+        <element label="Impact" max_length="40" name="impact" type="integer"/>
+        <element label="Priority" max_length="40" name="priority" type="integer"/>
+        <element label="Urgency" max_length="40" name="urgency" type="integer"/>
+    </element>
+</database>

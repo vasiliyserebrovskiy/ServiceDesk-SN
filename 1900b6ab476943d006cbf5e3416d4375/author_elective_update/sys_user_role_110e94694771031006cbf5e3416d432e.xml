@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id/>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1952794_servic_0.priority_calculation_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>priority_calculation_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:04:13</sys_created_on>
+        <sys_id>110e94694771031006cbf5e3416d432e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1952794_servic_0.priority_calculation_user</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_user_role_110e94694771031006cbf5e3416d432e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:04:13</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</application>
+        <file_path/>
+        <instance_id>54f6f6a3eb1c8310cbbffceacad0cd9e</instance_id>
+        <instance_name>dev388916</instance_name>
+        <name>sys_user_role_110e94694771031006cbf5e3416d432e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><federated_id/><grantable>true</grantable><includes_roles/><name>x_1952794_servic_0.priority_calculation_user</name><scoped_admin>false</scoped_admin><suffix>priority_calculation_user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-30 07:04:13</sys_created_on><sys_id>110e94694771031006cbf5e3416d432e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1952794_servic_0.priority_calculation_user</sys_name><sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package><sys_policy/><sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope><sys_update_name>sys_user_role_110e94694771031006cbf5e3416d432e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-30 07:04:13</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-913324597</payload_hash>
+        <record_name>x_1952794_servic_0.priority_calculation_user</record_name>
+        <reverted_from/>
+        <source>2c7632a7476943d006cbf5e3416d4320</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:04:13</sys_created_on>
+        <sys_id>e50e9c694771031006cbf5e3416d4333</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19f1757bd420000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:04:13</sys_updated_on>
+        <type>Role</type>
+        <update_guid>a50e9c69157103102ea9927e6dfd6332</update_guid>
+        <update_guid_history>a50e9c69157103102ea9927e6dfd6332:-913324597</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1952794_servic_0.priority_calculation_user">f39ed8e94771031006cbf5e3416d439b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-30 07:06:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>3f4f60c0061341d9a7e4269669f9bff9</sys_id>
+        <sys_metadata>110e94694771031006cbf5e3416d432e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1952794_servic_0.priority_calculation_user</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_scope_delete display_value="">84cc0438c8ad482098d569f274360890</sys_scope_delete>
+        <sys_update_name>sys_user_role_110e94694771031006cbf5e3416d432e</sys_update_name>
+        <sys_update_version display_value="sys_user_role_110e94694771031006cbf5e3416d432e">e50e9c694771031006cbf5e3416d4333</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-30 07:06:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
