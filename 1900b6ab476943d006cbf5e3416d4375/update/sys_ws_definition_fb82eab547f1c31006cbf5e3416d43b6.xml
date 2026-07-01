@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_1952794_servic_0/servicedesk_rest_integration</base_uri>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_version>No active default version</default_version>
+        <doc_link/>
+        <enforce_acl>0c1922b14735c31006cbf5e3416d43e5</enforce_acl>
+        <is_versioned>false</is_versioned>
+        <name>ServiceDesk REST Integration</name>
+        <namespace>x_1952794_servic_0</namespace>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <service_id>servicedesk_rest_integration</service_id>
+        <short_description/>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-01 11:53:13</sys_created_on>
+        <sys_id>fb82eab547f1c31006cbf5e3416d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceDesk REST Integration</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_ws_definition_fb82eab547f1c31006cbf5e3416d43b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-01 11:53:13</sys_updated_on>
+    </sys_ws_definition>
+</record_update>
