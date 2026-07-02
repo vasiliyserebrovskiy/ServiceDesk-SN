@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1952794_servic_0.ServiceDeskIncidentHandler</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Function for create incident from my ServiceDesk application.</description>
+        <mobile_callable>false</mobile_callable>
+        <name>ServiceDeskIncidentHandler</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ServiceDeskIncidentHandler = Class.create();
+ServiceDeskIncidentHandler.prototype = {
+    initialize: function() {
+    },
+
+    /**
+     * Creates a new servicedesk_incident record from parsed request body
+     * @param {Object} data - parsed JSON body from the REST request
+     * @returns {Object} result object with success flag and details
+     */
+    createIncident: function(data) {
+        var result = {};
+
+        try {
+            // 1. Requester is mandatory - no point continuing without it
+            var requesterSysId = null;
+            if (data.requester_email) {
+                requesterSysId = this._findUserByEmail(data.requester_email);
+            }
+
+            if (!requesterSysId) {
+                result.success = false;
+                result.error = 'Requester not found for email: ' + data.requester_email;
+                return result;
+            }
+
+            // 2. Optional fields - assignment group and assigned to.
+            // If not found, we just leave them empty and proceed.
+            var groupSysId = null;
+            if (data.assignment_group) {
+                groupSysId = this._findGroupByName(data.assignment_group);
+            }
+
+            var assignedToSysId = null;
+            if (data.assigned_to_email) {
+                assignedToSysId = this._findUserByEmail(data.assigned_to_email);
+            }
+
+            // 3. Create the record
+            var gr = new GlideRecordSecure('x_1952794_servic_0_servicedesk_incident');
+            gr.initialize();
+
+            gr.short_description = data.short_description || '';
+            gr.description = data.description || '';
+            gr.servicedesk_category = data.category || '';
+            gr.servicedesk_subcategory = data.subcategory || '';
+            gr.impact = data.impact || '';
+            gr.urgency = data.urgency || '';
+            gr.external_servicedesk_number = data.external_number || '';
+            gr.servicedesk_requester = requesterSysId;
+
+            if (groupSysId) {
+                gr.assignment_group = groupSysId;
+            }
+            if (assignedToSysId) {
+                gr.assigned_to = assignedToSysId;
+            }
+
+            var newSysId = gr.insert();
+
+            if (newSysId) {
+                result.success = true;
+                result.sys_id = newSysId;
+                result.number = gr.getValue('number');
+
+                // Let the caller know if optional lookups didn't resolve
+                var warnings = [];
+                if (data.assignment_group && !groupSysId) {
+                    warnings.push('Assignment group not found: ' + data.assignment_group);
+                }
+                if (data.assigned_to_email && !assignedToSysId) {
+                    warnings.push('Assigned to user not found: ' + data.assigned_to_email);
+                }
+                if (warnings.length > 0) {
+                    result.warnings = warnings;
+                }
+            } else {
+                result.success = false;
+                result.error = 'Insert failed, check field values';
+            }
+
+        } catch (ex) {
+            result.success = false;
+            result.error = ex.getMessage ? ex.getMessage() : ex.toString();
+        }
+
+        return result;
+    },
+
+    _findUserByEmail: function(email) {
+        var userGr = new GlideRecordSecure('sys_user');
+        userGr.addQuery('email', email);
+        userGr.query();
+        if (userGr.next()) {
+            return userGr.getUniqueValue();
+        }
+        return null;
+    },
+
+    _findGroupByName: function(name) {
+        var groupGr = new GlideRecordSecure('sys_user_group');
+        groupGr.addQuery('name', name);
+        groupGr.query();
+        if (groupGr.next()) {
+            return groupGr.getUniqueValue();
+        }
+        return null;
+    },
+
+    type: 'ServiceDeskIncidentHandler'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-02 10:34:36</sys_created_on>
+        <sys_id>ad5d17864779471006cbf5e3416d432b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ServiceDeskIncidentHandler</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_script_include_ad5d17864779471006cbf5e3416d432b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-02 11:48:03</sys_updated_on>
+    </sys_script_include>
+</record_update>
