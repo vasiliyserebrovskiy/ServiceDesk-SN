@@ -21,6 +21,7 @@ ServiceDeskIncidentHandler.prototype = {
      */
     createIncident: function(data) {
         var result = {};
+        var warnings = [];
 
         try {
             // 1. Requester is mandatory - no point continuing without it
@@ -55,10 +56,21 @@ ServiceDeskIncidentHandler.prototype = {
             gr.description = data.description || '';
             gr.servicedesk_category = data.category || '';
             gr.servicedesk_subcategory = data.subcategory || '';
-            gr.impact = data.impact || '';
-            gr.urgency = data.urgency || '';
             gr.external_servicedesk_number = data.external_number || '';
             gr.servicedesk_requester = requesterSysId;
+
+            // Impact and Urgency arrive as text (LOW/MEDIUM/HIGH/CRITICAL)
+            // from the Spring Boot backend and need to be converted to the
+            // numeric ServiceNow choice values.
+            if (data.impact && !this._isRecognizedLevel(data.impact)) {
+                warnings.push('Unrecognized impact value: ' + data.impact + ', defaulted to Low');
+            }
+            gr.impact = this._convertImpactUrgencyToServiceNowValue(data.impact);
+
+            if (data.urgency && !this._isRecognizedLevel(data.urgency)) {
+                warnings.push('Unrecognized urgency value: ' + data.urgency + ', defaulted to Low');
+            }
+            gr.urgency = this._convertImpactUrgencyToServiceNowValue(data.urgency);
 
             if (groupSysId) {
                 gr.assignment_group = groupSysId;
@@ -75,7 +87,6 @@ ServiceDeskIncidentHandler.prototype = {
                 result.number = gr.getValue('number');
 
                 // Let the caller know if optional lookups didn't resolve
-                var warnings = [];
                 if (data.assignment_group && !groupSysId) {
                     warnings.push('Assignment group not found: ' + data.assignment_group);
                 }
@@ -118,19 +129,53 @@ ServiceDeskIncidentHandler.prototype = {
         return null;
     },
 
+    /**
+     * Converts a text-based impact/urgency level (as sent by the Spring Boot
+     * backend) into the corresponding ServiceNow numeric choice value.
+     * Impact and Urgency share the same 4-level scale, so one function
+     * covers both fields.
+     *
+     * Falls back to '4' (Low) if the value is missing or unrecognized,
+     * rather than blocking incident creation over a non-critical field.
+     *
+     * @param {String} textValue - e.g. "CRITICAL", "HIGH", "MEDIUM", "LOW"
+     * @returns {String} the ServiceNow numeric value as a string
+     */
+    _convertImpactUrgencyToServiceNowValue: function(textValue) {
+        var mapping = {
+            'CRITICAL': '1',
+            'HIGH': '2',
+            'MEDIUM': '3',
+            'LOW': '4'
+        };
+
+        var DEFAULT_VALUE = '4';
+
+        if (!textValue) {
+            return DEFAULT_VALUE;
+        }
+
+        return mapping[textValue.toUpperCase()] || DEFAULT_VALUE;
+    },
+
+    _isRecognizedLevel: function(textValue) {
+        var validValues = ['CRITICAL', 'HIGH', 'MEDIUM', 'LOW'];
+        return validValues.indexOf(textValue.toUpperCase()) !== -1;
+    },
+
     type: 'ServiceDeskIncidentHandler'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-02 10:34:36</sys_created_on>
         <sys_id>ad5d17864779471006cbf5e3416d432b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>ServiceDeskIncidentHandler</sys_name>
         <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name>sys_script_include_ad5d17864779471006cbf5e3416d432b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-02 11:48:03</sys_updated_on>
+        <sys_updated_on>2026-07-08 11:25:28</sys_updated_on>
     </sys_script_include>
 </record_update>
