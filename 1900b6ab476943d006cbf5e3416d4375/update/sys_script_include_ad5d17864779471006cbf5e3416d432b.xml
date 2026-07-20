@@ -39,7 +39,7 @@ ServiceDeskIncidentHandler.prototype = {
                 return result;
             }
 
-            // 2. Optional fields - assignment group and assigned to.
+            // 2. Optional fields - assignment group, assigned to, and configuration item.
             // If not found, we just leave them empty and proceed.
             var groupSysId = null;
             if (data.assignment_group) {
@@ -49,6 +49,13 @@ ServiceDeskIncidentHandler.prototype = {
             var assignedToSysId = null;
             if (data.assigned_to_email) {
                 assignedToSysId = this._findUserByEmail(data.assigned_to_email);
+            }
+
+            // CI is matched by serial number first (physically unique),
+            // falling back to name only if that doesn't resolve.
+            var ciSysId = null;
+            if (data.ci_serial_number || data.ci_name) {
+                ciSysId = this._findConfigurationItem(data.ci_serial_number, data.ci_name);
             }
 
             // 3. Create the record
@@ -81,6 +88,9 @@ ServiceDeskIncidentHandler.prototype = {
             if (assignedToSysId) {
                 gr.assigned_to = assignedToSysId;
             }
+            if (ciSysId) {
+                gr.cmdb_ci = ciSysId;
+            }
 
             var newSysId = gr.insert();
 
@@ -95,6 +105,10 @@ ServiceDeskIncidentHandler.prototype = {
                 }
                 if (data.assigned_to_email && !assignedToSysId) {
                     warnings.push('Assigned to user not found: ' + data.assigned_to_email);
+                }
+                if ((data.ci_serial_number || data.ci_name) && !ciSysId) {
+                    warnings.push('Configuration item not found (serial: ' + data.ci_serial_number +
+                        ', name: ' + data.ci_name + ')');
                 }
                 if (warnings.length > 0) {
                     result.warnings = warnings;
@@ -129,6 +143,39 @@ ServiceDeskIncidentHandler.prototype = {
         if (groupGr.next()) {
             return groupGr.getUniqueValue();
         }
+        return null;
+    },
+
+    /**
+     * Finds a Configuration Item by serial number first (physically unique),
+     * falling back to name if the serial number is missing or no match is
+     * found. Queries the base cmdb_ci table, which reaches records from any
+     * child CI class since extended tables share the same sys_id and base
+     * fields with their parent.
+     *
+     * @param {String} serialNumber - optional, preferred match key
+     * @param {String} name - optional, fallback match key
+     * @returns {String|null} sys_id of the matched CI, or null if not found
+     */
+    _findConfigurationItem: function(serialNumber, name) {
+        if (serialNumber) {
+            var ciBySerialGr = new GlideRecordSecure('cmdb_ci');
+            ciBySerialGr.addQuery('serial_number', serialNumber);
+            ciBySerialGr.query();
+            if (ciBySerialGr.next()) {
+                return ciBySerialGr.getUniqueValue();
+            }
+        }
+
+        if (name) {
+            var ciByNameGr = new GlideRecordSecure('cmdb_ci');
+            ciByNameGr.addQuery('name', name);
+            ciByNameGr.query();
+            if (ciByNameGr.next()) {
+                return ciByNameGr.getUniqueValue();
+            }
+        }
+
         return null;
     },
 
@@ -172,13 +219,13 @@ ServiceDeskIncidentHandler.prototype = {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-07-02 10:34:36</sys_created_on>
         <sys_id>ad5d17864779471006cbf5e3416d432b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>ServiceDeskIncidentHandler</sys_name>
         <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name>sys_script_include_ad5d17864779471006cbf5e3416d432b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-07-16 11:58:01</sys_updated_on>
+        <sys_updated_on>2026-07-20 16:27:50</sys_updated_on>
     </sys_script_include>
 </record_update>
