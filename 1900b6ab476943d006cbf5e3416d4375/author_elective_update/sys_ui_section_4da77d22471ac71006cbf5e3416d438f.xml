@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New section 1" section_id="4da77d22471ac71006cbf5e3416d438f" sys_domain="global" table="x_1952794_servic_0_servicedesk_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:44:23</sys_created_on>
+            <sys_id>47d312aa47dac71006cbf5e3416d43af</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">0b53b9e647d6c71006cbf5e3416d4375</sys_ui_formatter>
+            <sys_ui_section caption="New section 1" display_value="New section 1" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">4da77d22471ac71006cbf5e3416d438f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:44:23</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New section 1</caption>
+            <header>false</header>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:41:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4da77d22471ac71006cbf5e3416d438f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1952794_servic_0_servicedesk_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+            <sys_update_name>sys_ui_section_4da77d22471ac71006cbf5e3416d438f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:41:05</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</application>
+        <file_path/>
+        <instance_id>54f6f6a3eb1c8310cbbffceacad0cd9e</instance_id>
+        <instance_name>dev388916</instance_name>
+        <name>sys_ui_section_4da77d22471ac71006cbf5e3416d438f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New section 1" section_id="4da77d22471ac71006cbf5e3416d438f" sys_domain="global" table="x_1952794_servic_0_servicedesk_incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 14:44:23</sys_created_on><sys_id>47d312aa47dac71006cbf5e3416d43af</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">0b53b9e647d6c71006cbf5e3416d4375</sys_ui_formatter><sys_ui_section caption="New section 1" display_value="New section 1" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">4da77d22471ac71006cbf5e3416d438f</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 14:44:23</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New section 1</caption><header>false</header><name>x_1952794_servic_0_servicedesk_incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:41:05</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4da77d22471ac71006cbf5e3416d438f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1952794_servic_0_servicedesk_incident</sys_name><sys_overrides/><sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package><sys_policy/><sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope><sys_update_name>sys_ui_section_4da77d22471ac71006cbf5e3416d438f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:41:05</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1354681531</payload_hash>
+        <record_name>servicedesk incident</record_name>
+        <reverted_from/>
+        <source>2c7632a7476943d006cbf5e3416d4320</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-28 14:44:23</sys_created_on>
+        <sys_id>1fd312aa47dac71006cbf5e3416d43b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fa92f18720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-28 14:44:23</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>1fd312aac8dac710a9688867439bbfb5</update_guid>
+        <update_guid_history>1fd312aac8dac710a9688867439bbfb5:1354681531,01a77d22a81ac710ded8a4054c59849a:1328739443</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-28 14:46:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>0a2970b20d284c078240de58c0fab771</sys_id>
+        <sys_metadata>4da77d22471ac71006cbf5e3416d438f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New section 1</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_parent display_value="servicedesk incident">89736fb747adc3d006cbf5e3416d4324</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_scope_delete display_value="">84cc0438c8ad482098d569f274360890</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4da77d22471ac71006cbf5e3416d438f</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4da77d22471ac71006cbf5e3416d438f">1fd312aa47dac71006cbf5e3416d43b6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-28 14:46:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

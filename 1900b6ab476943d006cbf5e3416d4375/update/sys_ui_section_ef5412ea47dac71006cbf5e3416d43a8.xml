@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ef5412ea47dac71006cbf5e3416d43a8" sys_domain="global" table="x_1952794_servic_0_servicedesk_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>a6151a2e47dac71006cbf5e3416d43e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">0b53b9e647d6c71006cbf5e3416d4375</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>2e151a2e47dac71006cbf5e3416d43e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>aa151a2e47dac71006cbf5e3416d43ea</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>external_servicedesk_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>2a151a2e47dac71006cbf5e3416d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>servicedesk_requester</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>a6151a2e47dac71006cbf5e3416d43ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>servicedesk_category</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>26151a2e47dac71006cbf5e3416d43ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>servicedesk_subcategory</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>a2151a2e47dac71006cbf5e3416d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>22151a2e47dac71006cbf5e3416d43ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>ae151a2e47dac71006cbf5e3416d43ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>2e151a2e47dac71006cbf5e3416d43f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>aa151a2e47dac71006cbf5e3416d43f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>urgency</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>2a151a2e47dac71006cbf5e3416d43f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>a6151a2e47dac71006cbf5e3416d43f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>26151a2e47dac71006cbf5e3416d43f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>a2151a2e47dac71006cbf5e3416d43f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>22151a2e47dac71006cbf5e3416d43f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>ae151a2e47dac71006cbf5e3416d43f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>3e151a2e47dac71006cbf5e3416d43f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>ba151a2e47dac71006cbf5e3416d43f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:49:49</sys_created_on>
+            <sys_id>3a151a2e47dac71006cbf5e3416d43f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">ef5412ea47dac71006cbf5e3416d43a8</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:49:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 14:46:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef5412ea47dac71006cbf5e3416d43a8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1952794_servic_0_servicedesk_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+            <sys_update_name>sys_ui_section_ef5412ea47dac71006cbf5e3416d43a8</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 14:48:37</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

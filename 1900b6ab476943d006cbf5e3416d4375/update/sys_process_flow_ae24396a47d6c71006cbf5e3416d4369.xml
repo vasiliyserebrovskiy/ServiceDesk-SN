@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1952794_servic_0_servicedesk_incident">state=13^EQ<item display_value="Resolved" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="13"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Resolved</label>
+        <name>ServiceDesk Incident – Resolved</name>
+        <order>400</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-28 12:26:24</sys_created_on>
+        <sys_id>ae24396a47d6c71006cbf5e3416d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceDesk Incident – Resolved</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_process_flow_ae24396a47d6c71006cbf5e3416d4369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-28 12:26:24</sys_updated_on>
+        <table>x_1952794_servic_0_servicedesk_incident</table>
+    </sys_process_flow>
+</record_update>

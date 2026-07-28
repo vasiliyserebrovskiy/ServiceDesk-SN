@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="ServiceDesk Incident" section_id="66477122471ac71006cbf5e3416d4369" sys_domain="global" table="x_1952794_servic_0_servicedesk_incident" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>b6477122471ac71006cbf5e3416d439c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">0b53b9e647d6c71006cbf5e3416d4375</sys_ui_formatter>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>7a477122471ac71006cbf5e3416d439d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>36477122471ac71006cbf5e3416d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>external_servicedesk_number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>fe477122471ac71006cbf5e3416d439e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>servicedesk_requester</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>ba477122471ac71006cbf5e3416d439f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>servicedesk_category</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>76477122471ac71006cbf5e3416d43a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>servicedesk_subcategory</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>32477122471ac71006cbf5e3416d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cmdb_ci</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>fa477122471ac71006cbf5e3416d43a1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>b6477122471ac71006cbf5e3416d43a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>72477122471ac71006cbf5e3416d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>impact</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>3e477122471ac71006cbf5e3416d43a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>urgency</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>f6477122471ac71006cbf5e3416d43a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>b2477122471ac71006cbf5e3416d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>7e477122471ac71006cbf5e3416d43a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>3a477122471ac71006cbf5e3416d43a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>f2477122471ac71006cbf5e3416d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>be477122471ac71006cbf5e3416d43a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>7a477122471ac71006cbf5e3416d43a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>36477122471ac71006cbf5e3416d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:34</sys_created_on>
+            <sys_id>fe477122471ac71006cbf5e3416d43a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:39:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>ServiceDesk Incident</caption>
+            <header>false</header>
+            <name>x_1952794_servic_0_servicedesk_incident</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-07-28 12:39:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66477122471ac71006cbf5e3416d4369</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1952794_servic_0_servicedesk_incident</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+            <sys_update_name>sys_ui_section_66477122471ac71006cbf5e3416d4369</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-07-28 12:41:30</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</application>
+        <file_path/>
+        <instance_id>54f6f6a3eb1c8310cbbffceacad0cd9e</instance_id>
+        <instance_name>dev388916</instance_name>
+        <name>sys_ui_section_66477122471ac71006cbf5e3416d4369</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="ServiceDesk Incident" section_id="66477122471ac71006cbf5e3416d4369" sys_domain="global" table="x_1952794_servic_0_servicedesk_incident" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>process_flow.xml</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>b6477122471ac71006cbf5e3416d439c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Process Flow">0b53b9e647d6c71006cbf5e3416d4375</sys_ui_formatter><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>7a477122471ac71006cbf5e3416d439d</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>36477122471ac71006cbf5e3416d439e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>external_servicedesk_number</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>fe477122471ac71006cbf5e3416d439e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>servicedesk_requester</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>ba477122471ac71006cbf5e3416d439f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>servicedesk_category</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>76477122471ac71006cbf5e3416d43a0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>servicedesk_subcategory</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>32477122471ac71006cbf5e3416d43a1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>cmdb_ci</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>fa477122471ac71006cbf5e3416d43a1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>b6477122471ac71006cbf5e3416d43a2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>72477122471ac71006cbf5e3416d43a3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>impact</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>3e477122471ac71006cbf5e3416d43a3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>urgency</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>f6477122471ac71006cbf5e3416d43a4</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>priority</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>b2477122471ac71006cbf5e3416d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>7e477122471ac71006cbf5e3416d43a5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>3a477122471ac71006cbf5e3416d43a6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>active</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>f2477122471ac71006cbf5e3416d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>be477122471ac71006cbf5e3416d43a7</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>7a477122471ac71006cbf5e3416d43a8</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>36477122471ac71006cbf5e3416d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:34</sys_created_on><sys_id>fe477122471ac71006cbf5e3416d43a9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="ServiceDesk Incident" display_value="ServiceDesk Incident" name="x_1952794_servic_0_servicedesk_incident" sys_domain="global" view="Default view">66477122471ac71006cbf5e3416d4369</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:39:34</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>ServiceDesk Incident</caption><header>false</header><name>x_1952794_servic_0_servicedesk_incident</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-07-28 12:39:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>66477122471ac71006cbf5e3416d4369</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1952794_servic_0_servicedesk_incident</sys_name><sys_overrides/><sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package><sys_policy/><sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope><sys_update_name>sys_ui_section_66477122471ac71006cbf5e3416d4369</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-07-28 12:41:30</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-668658732</payload_hash>
+        <record_name>servicedesk incident</record_name>
+        <reverted_from/>
+        <source>2c7632a7476943d006cbf5e3416d4320</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-28 12:41:30</sys_created_on>
+        <sys_id>47b77162471ac71006cbf5e3416d43b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19fa8be98280000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-28 12:41:30</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>47b77162041ac71071d7d721fc4396b0</update_guid>
+        <update_guid_history>47b77162041ac71071d7d721fc4396b0:-668658732,be4771227f1ac71096b7383aa66ffdae:1707130048</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-28 12:59:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>10fcfd73e95d4820830cf02430182d10</sys_id>
+        <sys_metadata>66477122471ac71006cbf5e3416d4369</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ServiceDesk Incident</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_parent display_value="servicedesk incident">89736fb747adc3d006cbf5e3416d4324</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_scope_delete display_value="">84cc0438c8ad482098d569f274360890</sys_scope_delete>
+        <sys_update_name>sys_ui_section_66477122471ac71006cbf5e3416d4369</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_66477122471ac71006cbf5e3416d4369">47b77162471ac71006cbf5e3416d43b1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-28 12:59:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
