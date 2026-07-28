@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_state_transition">
+    <sys_state_transition action="INSERT_OR_UPDATE">
+        <description/>
+        <enter_condition table="x_1952794_servic_0_servicedesk_incident">state=10^ORstate=12^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="10"/>
+            <item display_value="On Hold" endquery="false" field="state" goto="false" newquery="false" operator="=" or="true" value="12"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </enter_condition>
+        <exit_condition/>
+        <order>20</order>
+        <state>11</state>
+        <state_label>In Progress</state_label>
+        <state_model display_value="ServiceDesk Incident: Default Flow">eb61a85a479e071006cbf5e3416d43e2</state_model>
+        <sys_class_name>sys_state_transition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-27 11:54:59</sys_created_on>
+        <sys_id>8f63e45e479e071006cbf5e3416d43e4</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>In Progress</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_state_transition_8f63e45e479e071006cbf5e3416d43e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-28 10:14:06</sys_updated_on>
+        <terminal_state>false</terminal_state>
+    </sys_state_transition>
+</record_update>

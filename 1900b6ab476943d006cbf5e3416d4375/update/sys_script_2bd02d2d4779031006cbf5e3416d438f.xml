@@ -15,7 +15,7 @@
         <condition/>
         <description/>
         <execute_function>false</execute_function>
-        <filter_condition table="x_1952794_servic_0_servicedesk_incident">stateCHANGESTO6^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="6"/>
+        <filter_condition table="x_1952794_servic_0_servicedesk_incident">stateCHANGESTO15^EQ<item display_value="Closed" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="15"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter_condition>
         <is_rest>false</is_rest>
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>2bd02d2d4779031006cbf5e3416d438f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Set Active false on Close</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name>sys_script_2bd02d2d4779031006cbf5e3416d438f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-30 12:01:43</sys_updated_on>
+        <sys_updated_on>2026-07-28 10:36:19</sys_updated_on>
         <template>active=false^EQ</template>
         <when>before</when>
     </sys_script>
