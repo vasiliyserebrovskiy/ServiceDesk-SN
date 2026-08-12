@@ -5,7 +5,7 @@
         <active>true</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4843000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=439901000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -16,20 +16,20 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>sd_incident_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛servicedesk incident Record","reference":"x_1952794_servic_0_servicedesk_incident","reference_display":"servicedesk incident","type":"reference","base_type":"reference","usedInstances":{"e950b9b2-4276-4b54-9e18-82c6d548247a":["incident"],"60a1da13-8898-4881-81be-81bd93eb65d9":["record"],"dbffb47a-c627-4a2a-bdfb-6a5f63d78f14":["incident"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛servicedesk incident Record","reference":"x_1952794_servic_0_servicedesk_incident","reference_display":"servicedesk incident","type":"reference","base_type":"reference","usedInstances":{"e950b9b2-4276-4b54-9e18-82c6d548247a":["incident"],"60a1da13-8898-4881-81be-81bd93eb65d9":["record"],"dbffb47a-c627-4a2a-bdfb-6a5f63d78f14":["incident"],"a24c2f62-8c0f-427d-aceb-663dcd90bcf2":["incident"]},"attributes":{}}]</label_cache>
         <master_snapshot>148cbb5d472a031006cbf5e3416d439d</master_snapshot>
         <master_snapshot_digest/>
         <name>SD Incident Flow</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>6c8cbb5d472a031006cbf5e3416d43d3</remote_trigger_id>
+        <remote_trigger_id>8428710f47aa471006cbf5e3416d4377</remote_trigger_id>
         <run_as>system</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>b10a27d547a6031006cbf5e3416d4344</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>SD Incident Flow</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
@@ -45,11 +45,11 @@
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name>sys_hub_flow_b10a27d547a6031006cbf5e3416d4344</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 12:44:36</sys_updated_on>
+        <sys_updated_on>2026-08-11 12:15:53</sys_updated_on>
         <type>flow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>334815b147e2c31006cbf5e3416d43e4</version_record>
+        <version_record>5428710f47aa471006cbf5e3416d43f5</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=b10a27d547a6031006cbf5e3416d4344"/>
     <sys_variable_value action="delete_multiple" query="document_key=b10a27d547a6031006cbf5e3416d4344"/>
@@ -69,15 +69,15 @@
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-06 11:24:53</sys_created_on>
+        <sys_created_on>2026-08-11 12:15:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>6c8cbb5d472a031006cbf5e3416d43d3</sys_id>
+        <sys_id>8428710f47aa471006cbf5e3416d4377</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-06 11:24:53</sys_updated_on>
+        <sys_updated_on>2026-08-11 12:15:53</sys_updated_on>
         <table>x_1952794_servic_0_servicedesk_incident</table>
         <trigger_definition/>
     </sys_flow_record_trigger>
@@ -88,14 +88,14 @@
         <identifier_type>flow</identifier_type>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-06 11:24:53</sys_created_on>
-        <sys_id>a48cbb5d472a031006cbf5e3416d43ee</sys_id>
+        <sys_created_on>2026-08-11 12:15:53</sys_created_on>
+        <sys_id>c828710f47aa471006cbf5e3416d4378</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-06 11:24:53</sys_updated_on>
-        <trigger display_value="">6c8cbb5d472a031006cbf5e3416d43d3</trigger>
+        <sys_updated_on>2026-08-11 12:15:53</sys_updated_on>
+        <trigger display_value="">8428710f47aa471006cbf5e3416d4377</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b10a27d547a6031006cbf5e3416d4344^sys_idNOT INa48cbb5d472a031006cbf5e3416d43ee"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=b10a27d547a6031006cbf5e3416d4344^sys_idNOT INc828710f47aa471006cbf5e3416d4378"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=b10a27d547a6031006cbf5e3416d4344"/>
     <sys_flow_cat_variable_model action="delete_multiple" query="id=b10a27d547a6031006cbf5e3416d4344^sys_idNOT IN350a27d547a6031006cbf5e3416d4349"/>
     <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
@@ -311,7 +311,7 @@
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
         <attributes/>
         <comment>Waiting for State change to In Progress</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
         <display_text/>
         <flow display_value="SD Incident Flow">b10a27d547a6031006cbf5e3416d4344</flow>
         <generation_source/>
@@ -321,16 +321,16 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-07 08:57:17</sys_created_on>
         <sys_id>00546479472e831006cbf5e3416d4313</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 10:50:41</sys_updated_on>
+        <sys_updated_on>2026-08-11 12:15:45</sys_updated_on>
         <ui_id>60a1da13-8898-4881-81be-81bd93eb65d9</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+2XXW/bNhSG/0qga9MjJUqmclfYDhZgawAn7S66QqDIw5iYLLn6SOMF+e+jZCqWbMc1Ejddgd5Zh+Thez4eH+nTg6Olc+7QUADjlLARcTEmOAg8wUkce4GIcQzUGTgpX4DZmYPIcmme73hS1YaHh3EOvAQZkaGo8hzS8vHRrEtdLBO++mi3GYuY60Sadef80+eBs+S58VhC7pw/bC2VqyVECY8hMQcnmagWxunZ5cT4OFZte3rWyt2WX99hnqX1HunaaJZqPWTgwH0JqQRzm+JJAQNnwVPJyyxfOedlXhmDCVpepcnqacdcp+U60AW/L/S/xr3n1vsUmMiETcLTY2QT1OYm0wKulqXO0rWl5HHSJi5LqkX6fh1BnVpQvErKTmqrwviDZS25FrFWqK7n2ddZe9+FTpvgrNokEzx5euJlmeu4KqGoq1Hpm33ZWZv/2FsXpRNTyqgRHRVZlTfxzqbjq9kk+uvdzfj36SyaTa9vZpfjm2l9AhJoXC/4cqnT22iZZ3e6UWjiXQxvE/MwVEn21QRW6Nt0yEWdnKGpAh9eGPukMX/kua4v/dO4MYdrlR9S/aWCy6ZTlCIeCQJECPYQJXGAQgY+wuBz6rs08APXeWyqEn2p6oSs82szGTXFWAfVNJDZWohcL8t3Rswd2Pw9DlqM/IONyTd92PG5Qek+IqHvjkIaFZDfaRFh+wNMCv6JdCp0U98duDq7zjq7XgbcTS3t7P1a2rFh9Q4/E6ZFrmezxLmHibOWY5Bj+McgZxW9nrleevrI9StTROtWtKIbr2/FlUtYyGjsIS+mPqKhUohhRhEFjoXvyhEl4ptcfZOmw3/zatNmIkulrqMoOjQVpZlKf1cYe5KQPcxsLb8MlnH35mNV7z28LxRLTM9mifFONaMoxj8ImVNNqV56+sT0MvwmZIBkQexjhkAxhqg3YigkrouCgJs+o0IqfMqJg+WhblOdF7dSLyCrykgl/LZDCd4lo/0neeH4MFX97cK6OFZje3iaNn9xVuuz4i0XcZYlwNMNFPRkY4T+7GNkk5utGdItz5sQIQRnZihwFHoCEA1igZgSCnkQ+8rzYxaP8KtnhTjcY+FuK8kq503NNiyc8qtl4/1YfXuOPi/ZEtBUqGu3IPi/QGhB2EnR1mfMZuF70TA35yZ8VdSVNPTt8gGEj/y4/jLhiLohQTykLgoDGAFVLPB4+Go+GDnYf2q32QoxB1kl8H34eCppC8gRAtuz1xtlz2u2gOSdeywbwQm/NbZfncQi7YrYR0pH/f+UmG7O+rB0q/Y2s8N1iSdBICLNKxV1Axcxj47QKGQxpqYvYg9ezMbn/wDXFxoP/hIAAA==</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=00546479472e831006cbf5e3416d4313"/>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b10a27d547a6031006cbf5e3416d4344^sys_idNOT IN850e787d47ee831006cbf5e3416d4332,86cb371d472a031006cbf5e3416d4336"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=b10a27d547a6031006cbf5e3416d4344^sys_idNOT IN850e787d47ee831006cbf5e3416d4332,86cb371d472a031006cbf5e3416d4336,b2e7f18347aa471006cbf5e3416d432f"/>
     <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
         <comment>Phase 2 - waiting for assignee steps</comment>
@@ -374,6 +374,29 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-08-06 11:25:45</sys_updated_on>
         <ui_id>e950b9b2-4276-4b54-9e18-82c6d548247a</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Auto closure incident</comment>
+        <display_text/>
+        <flow display_value="SD Incident Flow">b10a27d547a6031006cbf5e3416d4344</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <show_stages>false</show_stages>
+        <subflow display_value="Phase 4 - Auto-closure">6fc735cb47aa471006cbf5e3416d4382</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/5VSW2+bMBT+K5OfCYJwC3mbNlWqtK3SLn2pKutgHxJrxlBj0mRR/vuOgaZo3cP2hr9z+S6HhzNTkm1ZXogiyUSVFgBpEUdRLqo6wySNc5km5ZoFzECD1KmMUBKNI+QAevDQ+fzBIjiUPA7FYC1VLxeqS9V3Gk73cxshYq+0pDrbPjwGrANLOx1atj3/UXKnDrmGCjUNfsUaqSKQNvyr2pfZ21e5bw14FkLsYn9rpdcTBwyPDo1E4qtB9xiwBowE19rTFSHX8s7oV2CvaO/otIFjr37R9mQdLAi27MjjMlsXZcp7tAcleDR/oMT+J1+ou07xOUiaXrS+W7SKfUvoXedUayZ+B5X+PzrR6qExX6aQ/PWwhkG7xfWGnqRg51PxNmfP9bd9+3w90Y0yY4BzUbcC9PUFzllVDQ57f/FBfX+b/wR++svlUWNDvLyBrlNmxzvbHtTIRdKbcKfpEda6fSaNvdqZEISPI6SbQXhD+McRvgerfDafaQ0Ne8YfRj0NeOv/LKhSWWKZr8ooKldpCflqk2yyVZFjVUK83ohMsMt4G/40eGtTVHMofIqfGnphVefek4QDzv4vj78BwYZ+f24DAAA=</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-11 12:14:59</sys_created_on>
+        <sys_id>b2e7f18347aa471006cbf5e3416d432f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-11 12:15:45</sys_updated_on>
+        <ui_id>a24c2f62-8c0f-427d-aceb-663dcd90bcf2</ui_id>
         <updation_source/>
         <wait_for_completion>true</wait_for_completion>
     </sys_hub_sub_flow_instance_v2>
@@ -443,7 +466,7 @@
         <description>This is a base workflow for ServiceDesk Intergration application.</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>sd_incident_flow</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛servicedesk incident Record","reference":"x_1952794_servic_0_servicedesk_incident","reference_display":"servicedesk incident","type":"reference","base_type":"reference","usedInstances":{"e950b9b2-4276-4b54-9e18-82c6d548247a":["incident"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger - Record Created➛servicedesk incident Record","reference":"x_1952794_servic_0_servicedesk_incident","reference_display":"servicedesk incident","type":"reference","base_type":"reference","usedInstances":{"e950b9b2-4276-4b54-9e18-82c6d548247a":["incident"],"60a1da13-8898-4881-81be-81bd93eb65d9":["record"],"dbffb47a-c627-4a2a-bdfb-6a5f63d78f14":["incident"],"a24c2f62-8c0f-427d-aceb-663dcd90bcf2":["incident"]},"attributes":{}}]</label_cache>
         <master>true</master>
         <name>SD Incident Flow</name>
         <natlang/>
@@ -460,7 +483,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>148cbb5d472a031006cbf5e3416d439d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -468,7 +491,7 @@
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-06 11:24:52</sys_updated_on>
+        <sys_updated_on>2026-08-11 12:15:52</sys_updated_on>
         <type>flow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -493,7 +516,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -553,14 +576,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-06 11:24:53</sys_created_on>
         <sys_id>9c8cbb5d472a031006cbf5e3416d43ae</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-06 11:24:53</sys_updated_on>
+        <sys_updated_on>2026-08-11 12:15:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -578,7 +601,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -638,14 +661,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-06 11:24:52</sys_created_on>
         <sys_id>d48cbb5d472a031006cbf5e3416d439f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-06 11:24:52</sys_updated_on>
+        <sys_updated_on>2026-08-11 12:15:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -683,11 +706,58 @@
         <trigger_type>record_create</trigger_type>
         <updation_source/>
     </sys_hub_trigger_instance_v2>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=148cbb5d472a031006cbf5e3416d439d"/>
-    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=148cbb5d472a031006cbf5e3416d439d^sys_idNOT INac8cbb5d472a031006cbf5e3416d43c3"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=148cbb5d472a031006cbf5e3416d439d^sys_idNOT INbb18310f47aa471006cbf5e3416d43e0"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
+        <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
+        <attributes/>
+        <comment>Waiting for State change to In Progress</comment>
+        <compiled_snapshot>89ce8a4187120010663ca1bb36cb0be3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="SD Incident Flow">148cbb5d472a031006cbf5e3416d439d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-11 12:15:51</sys_created_on>
+        <sys_id>bb18310f47aa471006cbf5e3416d43e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-11 12:15:51</sys_updated_on>
+        <ui_id>60a1da13-8898-4881-81be-81bd93eb65d9</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2X227bOBCGXyXQtekVJUqmclfYDhog2wC2273oFgJFDWNiacnVIY3XyLsvJdGWfIibbJ0AAXpnDQ/+55/5PNbXtSVj69IiAQfKCKYD7Ng2tn3f5QxHkevzyI6AWD0rYQvQOzPgaRbr53umyiqwXg8zYAXEIe7zMssgKR4f9Xos86Viqy9mm47wuVSxXrcuv37rWUuW6RsLyKzL9d7ScyUpFoHSWycbTfsai9Wyeo5TXi60rlBugjfm5MisXFyP9Io+VMnBPQseCkhi0DoEUzn0rAVLYlak2cq6LLJSB3TO8W2iVtsdc5kUTZ4L9pDLf/UXu061T4BOjBsPto+h8acJixEr2FTfzIsy29qVSg55Y0kMgpWqGHZjzYbbZSHTpDlSsEhtTqeqXCSfGkOs7QWdcpS5FgHLKs9KeZOWmM7TH5ONyCuZ1I6YFFXKmdo+saLIZFQWlZy1VcrZMbOb8HG7hVS6/GEtOszTMqtNmoyHt5NR+NeH2fDjeBJOxtPZ5Ho4G1cnQEF99YItlzK5C5dZei9rhTrfRf9O6Ye+UOkPnVgu75I+45U5fV061r/S8VEd/sIyWX3pn/oafbhS+TmR30u4rhtPCOxi30cY2y4iOPJRQMFDNniMeA7xPd+xHntWvsqHiuV567Eubvi9rCxqHDfehnV5mjTrDq0O80wuiw9a3j0YRx97Gxi9k53P2kbv3NkC+RDiwHMGAQlzyO4lD23zAbQp/4Qy4bKu+AGinV0XnV0vxPbn4jfYzupuPZ6MIfcgdtM9e/GpWTDcOqe5NZEW3Kbjj3BL7XfErUnr18Hd8XqX2x23ZR423WtE17e+FZwOpgElkYvciHiIBEIgalOCCDCbe048IJj/Dzh/iuTpYSTaLuZpEssqr7yDZF7oAfl3adtujPER8PaWzzooRYe4YVfcMcEGu4PYzbELDHbuucYlse33BN65BuaO2bvc7dj9JnxBTP3IsykCQSki7oCiADsO8n2me5PwWNivO/zs+FQ3i84/0UIuIC2LUCh212HNPuRr8wv1Mq6eoWTD1TipfyCNoiclGrqiNFXAkv2Jptvpjyuj1KBFXjjRTrH1jsg620hrnd6bZ12v34QrzhnVA4qhwOWAiB9xRAUXyIXIE64X0Whgv8Lc4qd7ODhs1bjMWF3FlqgzvMw9Q8eGpVEr4GlphqS6Nvvxm8OLDE7eb5x+CacDu/fe7tqF12Jqrs+N2CqvukIzfEgZYDbwouqFjSHiBBixgDgo8GEARFDfZcErUEbxye4Wh62c8znEpYLzUvYMHRvKpq2Ap6UZytpG3wVs0okbwvyzEUYP/gzyRdIVd4y3TlbvkjsxBZbx+ZUEVdXTvIs9QWO3LLsgdgvzNtPNcbAbA0c41n8dieM7iLpkgAYBjWyiWy9y4YzcffsP39TwuLcUAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=bb18310f47aa471006cbf5e3416d43e0"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=148cbb5d472a031006cbf5e3416d439d^sys_idNOT IN3b18310f47aa471006cbf5e3416d43e3,ac8cbb5d472a031006cbf5e3416d43c3,bf18310f47aa471006cbf5e3416d43e4"/>
     <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
         <attributes/>
-        <comment/>
+        <comment>Phase 2 - waiting for assignee steps</comment>
+        <display_text/>
+        <flow display_value="SD Incident Flow">148cbb5d472a031006cbf5e3416d439d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <show_stages>false</show_stages>
+        <subflow display_value="Phase 2 - In Progress Resolution">13ad7c3d47ee831006cbf5e3416d434a</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/5WSzW7bMBCEX6XgWRYsW4oa3QoHBgK0DdC0uQSBsCKXNhGKUvjj2DX87l1agiM0PTQ3aXaWO/uRj0emBKtYUYIo+VLkJeLnZTafX/FGFrjMsyuRL3POEmagRXIqw5VA40nZgQ5ROh5XFsGjqLOUB2upejpRXSjXazg8jDZS+FZpQXVWPT4lrAdLZ3q0rDr+VfrfUBoa1GS9fUv1Pqc/9FGxKJEGcBylr2Pvj4neWRHjZAnDvUcjkHJI0A4T1oIR4Dt7YJW3gQTaWdwZfbg4torGnfdsYe/Ubxq6XCSTuRXb19l1sSiv89qh3Slez8cPFOie60noS1c9YqTuifXTxCpvwMM9heI+2AvpjpxuoClQQtB+NdUGw13vVWeGFg+N/lhG3unQmu8DcHaZM7nw4Cg/9pFkZDOCkvfb7vWCfa3MGfpY1B0HPbEiWL5dK9TxSYBzamPopfmOTgfvrWqCjzsdWVA/31/0IP7rqlFjS6HqFvpemU3d226nzkForzbdaPpJpe5eaYE4NAUeWaX0CCBdk35zlh/AqgjuGx1DzXHiL6NeAt7GvFIKvpgXMINS5LNc5PmsyXgxyxdyDiU2IgPOTglzB7fStNwbS1qifgmRxEB2ZFgPtxVbuFW9/0KhdjjiOj39AZTWmf3QAwAA</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-11 12:15:51</sys_created_on>
+        <sys_id>3b18310f47aa471006cbf5e3416d43e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-11 12:15:51</sys_updated_on>
+        <ui_id>dbffb47a-c627-4a2a-bdfb-6a5f63d78f14</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Waiting for assignment to Assignee</comment>
         <display_text/>
         <flow display_value="SD Incident Flow">148cbb5d472a031006cbf5e3416d439d</flow>
         <generation_source/>
@@ -700,11 +770,34 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-06 11:24:53</sys_created_on>
         <sys_id>ac8cbb5d472a031006cbf5e3416d43c3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-11 12:15:51</sys_updated_on>
+        <ui_id>e950b9b2-4276-4b54-9e18-82c6d548247a</ui_id>
+        <updation_source/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_hub_sub_flow_instance_v2>
+    <sys_hub_sub_flow_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <comment>Auto closure incident</comment>
+        <display_text/>
+        <flow display_value="SD Incident Flow">148cbb5d472a031006cbf5e3416d439d</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <show_stages>false</show_stages>
+        <subflow display_value="Phase 4 - Auto-closure">6fc735cb47aa471006cbf5e3416d4382</subflow>
+        <subflow_inputs>H4sIAAAAAAAA/5WST2/aQBDFv0q1Z2NhMDbmVhEhRWobqWlziSJrvDuGVddrZ/8QKOK7dxZbYCU9tDf7zZudN7/d5xOTgq1YlvN8vuBVmgOkeTKdZryqFzhPk0yk82LGIqahQXJKzaVA7UjZg/JBOp3WBsGhKJOYe2Ooej5TXUjbKTg+DTZS+E4qQXW2en6JWAeGznRo2Or0rvSvoRRUqMh6f0v1Mac7dkExWCMN4DhIX4be7yO9NSLESSKGB4daIOWoQVmMWANagGvN8arQ0uJBq5uwkzTvsmgDByt/09T5LBoNXrFDmRSLWV6kpUWzl7ycDh8o0P4qR6mvXeXAkbpH1k8ja30HDh6d8dx5c0XdktP2OAXW4JVbj7Xe8NA52eq+xUGl/i8jb5Vv9LeeOLvOGd24t5Qfu4AysBlA1Y+79u3KfSP1hfpQVC0HNbIiGL7bSFThTYC1cqvpqbmWTgfnjKy8CzudmJc/Pt50L/7trlFhQ6HKBrpO6m3ZmXYvL0ForybeKvqJa9W+0QJhaAw8sIrpFUC8If3uIj+BkQHcVzqGmsPEn1q+ery/5K1SUWCRTYrptJikBWST5Xy5mOQZVgUksyVfcHaOmD3ataLlbixpifLVBxI92YFh2d9WaOFGdu4zhdrjgOv88gdszYTJ0QMAAA==</subflow_inputs>
+        <sys_class_name>sys_hub_sub_flow_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-11 12:15:52</sys_created_on>
+        <sys_id>bf18310f47aa471006cbf5e3416d43e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-06 11:24:53</sys_updated_on>
-        <ui_id>e950b9b2-4276-4b54-9e18-82c6d548247a</ui_id>
+        <sys_updated_on>2026-08-11 12:15:52</sys_updated_on>
+        <ui_id>a24c2f62-8c0f-427d-aceb-663dcd90bcf2</ui_id>
         <updation_source/>
         <wait_for_completion>true</wait_for_completion>
     </sys_hub_sub_flow_instance_v2>
@@ -762,7 +855,7 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>b10a27d547a6031006cbf5e3416d4344</sys_id>
         <latest_snapshot>148cbb5d472a031006cbf5e3416d439d</latest_snapshot>
-        <compiler_build>glide-australia-02-11-2026__patch1-03-23-2026_03-31-2026_1137.zip</compiler_build>
+        <compiler_build>glide-australia-02-11-2026__patch2-04-17-2026_04-29-2026_2044.zip</compiler_build>
         <version_record/>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=b10a27d547a6031006cbf5e3416d4344^sys_idNOT INac8cbb5d472a031006cbf5e3416d43f1"/>
@@ -770,18 +863,18 @@
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
         <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_trigger_plan","id":"ac8cbb5d472a031006cbf5e3416d43f1","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
         <plan_id>b10a27d547a6031006cbf5e3416d4344</plan_id>
-        <snapshot>a3f248a9476a031006cbf5e3416d4347</snapshot>
+        <snapshot>148cbb5d472a031006cbf5e3416d439d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-06 11:24:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ac8cbb5d472a031006cbf5e3416d43f1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-06 11:24:53</sys_updated_on>
-        <trigger display_value="">6c8cbb5d472a031006cbf5e3416d43d3</trigger>
+        <sys_updated_on>2026-08-11 12:15:53</sys_updated_on>
+        <trigger display_value="">8428710f47aa471006cbf5e3416d4377</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=b10a27d547a6031006cbf5e3416d4344"/>
 </record_update>
