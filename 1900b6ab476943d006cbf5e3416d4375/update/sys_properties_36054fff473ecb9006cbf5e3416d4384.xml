@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>evt_mgmt.impact_filter_services_queries_enabled</name>
+        <read_roles/>
+        <suffix>x_1952794_servic_0</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-26 12:03:05</sys_created_on>
+        <sys_id>36054fff473ecb9006cbf5e3416d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>evt_mgmt.impact_filter_services_queries_enabled</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_properties_36054fff473ecb9006cbf5e3416d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-26 12:03:05</sys_updated_on>
+        <type>string</type>
+        <value>true</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=36054fff473ecb9006cbf5e3416d4384"/>
+</record_update>
