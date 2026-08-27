@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Password value for ServiceDesk application integration</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1952794_servic_0.servicedesk.integration.password</name>
+        <read_roles/>
+        <suffix>servicedesk.integration.password</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 12:58:10</sys_created_on>
+        <sys_id>160b5c18478303d006cbf5e3416d43fe</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_1952794_servic_0.servicedesk.integration.password</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_properties_160b5c18478303d006cbf5e3416d43fe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 13:01:00</sys_updated_on>
+        <type>password2</type>
+        <value>{{dflt-gpaes}}Nn21Ub2DGVsS1Gy1JhpwPA==</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=160b5c18478303d006cbf5e3416d43fe"/>
+</record_update>

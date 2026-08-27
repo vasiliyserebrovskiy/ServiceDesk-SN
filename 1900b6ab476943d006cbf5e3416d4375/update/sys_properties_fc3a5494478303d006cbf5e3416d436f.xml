@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Login value for username in ServiceDesk application</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_1952794_servic_0.servicedesk.integration.email</name>
+        <read_roles/>
+        <suffix>servicedesk.integration.email</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-27 12:56:57</sys_created_on>
+        <sys_id>fc3a5494478303d006cbf5e3416d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1952794_servic_0.servicedesk.integration.email</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_properties_fc3a5494478303d006cbf5e3416d436f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-27 12:56:57</sys_updated_on>
+        <type>string</type>
+        <value>servicenow@example.com</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=fc3a5494478303d006cbf5e3416d436f"/>
+</record_update>

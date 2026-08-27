@@ -5,7 +5,7 @@
         <active>true</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=10788000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1739337000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>sync_to_external_app_stub</internal_name>
-        <label_cache>[{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}}]</label_cache>
+        <label_cache>[{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}}]</label_cache>
         <master_snapshot>bfbca8b9476e831006cbf5e3416d43d6</master_snapshot>
         <master_snapshot_digest/>
         <name>Sync to External App (Stub)</name>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>829a60b5476e831006cbf5e3416d435d</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>34</sys_mod_count>
         <sys_name>Sync to External App (Stub)</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
@@ -45,11 +45,11 @@
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name>sys_hub_flow_829a60b5476e831006cbf5e3416d435d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 12:24:34</sys_updated_on>
+        <sys_updated_on>2026-08-27 12:33:46</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>c4c3117947a2c31006cbf5e3416d4302</version_record>
+        <version_record>11a5dcd4474303d006cbf5e3416d43dc</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=829a60b5476e831006cbf5e3416d435d"/>
     <sys_variable_value action="delete_multiple" query="document_key=829a60b5476e831006cbf5e3416d435d"/>
@@ -67,92 +67,7 @@
         <sys_updated_on>2026-08-07 09:24:43</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=4e9a60b5476e831006cbf5e3416d435d"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=829a60b5476e831006cbf5e3416d435d^sys_idNOT IN393be8f5476e831006cbf5e3416d433c,b8cae8b5476e831006cbf5e3416d4372,f13be8f5476e831006cbf5e3416d4334"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dfae1150-138b-41b4-a1f9-0dabf855a07b</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>status</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Sync to External App (Stub)">829a60b5476e831006cbf5e3416d435d</model>
-        <model_id>829a60b5476e831006cbf5e3416d435d</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_829a60b5476e831006cbf5e3416d435d</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:27:26</sys_created_on>
-        <sys_id>393be8f5476e831006cbf5e3416d433c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:34:04</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=393be8f5476e831006cbf5e3416d433c"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=829a60b5476e831006cbf5e3416d435d^sys_idNOT INb8cae8b5476e831006cbf5e3416d4372"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -238,91 +153,6 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b8cae8b5476e831006cbf5e3416d4372"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=168bda92-6d55-48c8-a0df-4845226668ff</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>comment</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Comment</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Sync to External App (Stub)">829a60b5476e831006cbf5e3416d435d</model>
-        <model_id>829a60b5476e831006cbf5e3416d435d</model_id>
-        <model_table>sys_hub_flow</model_table>
-        <name>var__m_sys_hub_flow_input_829a60b5476e831006cbf5e3416d435d</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:27:26</sys_created_on>
-        <sys_id>f13be8f5476e831006cbf5e3416d4334</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:34:04</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f13be8f5476e831006cbf5e3416d4334"/>
     <sys_hub_flow_output action="delete_multiple" query="model=829a60b5476e831006cbf5e3416d435d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=829a60b5476e831006cbf5e3416d435d"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=829a60b5476e831006cbf5e3416d435d"/>
@@ -342,13 +172,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-07 09:27:48</sys_created_on>
         <sys_id>d34b6cf5476e831006cbf5e3416d43f1</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2026-08-07 12:27:09</sys_updated_on>
+        <sys_updated_on>2026-08-27 12:41:21</sys_updated_on>
         <ui_id>9da5cb2c-f54e-4f4d-ab30-610f01dcbc97</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VUTW/bRhD9K4M9JbZES1bUNMrJsJs2QBIDVeEeokBYkkNpi+WS3Q/ZqqD/3tnlkqIdQ7CAAD0U4GUf38y8+fy6YyJnMzZNs3GaZT9NJ+PRaEJfWozzd+PRO8ymP7/N37IBU7xEYspqtZS4QUnQhkvnsXuuFT1zYWrJt3cR/ZNQoVb0I1sLmWtUbPb124DVXJMri5rNdk9+vVSL5CkJmLFPUcgz2uy29lC2rkSG8f0pml23YKVzL2M0YPhgUeVI8QsuDQ5YyVXObaW3HaKR57dKHoC1UJa8MU9+MOIfivdm5HkFUkYZNv+65zLWp4GLG2753GqXWacjtRFrqBa7LsXhEL5UCmE47BW8J30/OHA/qqLqsUTzjMxxn3nozZMeRvJln/yL1pXuUTG+I3eyp87lWHAn7fXpGYxfnMHlKRlMTsjgjc+gKf5tbUVF08jGfmZ4KtvWVNKV6kszZ6zL9+6x0IjePF6EmJQzNAJY+zHzcxOHqJivq/vf2xn5IFRQFH/KKuOye3FrtUid9fXdMZRYkqNlyeuaCrGsdbURwZjElslK0iMpZHVPQY1YqYRnPrWEpponHwi/CfAd18Kn+ZnckPF+wMzWXEtuzCFZGuHl384raVKPOSxDoYJJpkVtryjABqNcX/6wzpeTY+uM08frW6IxfIW9Xs23KgNjXQrDhSNzhI8qEz7+DHY741KfYyIilihXpqj3+wHZcOvMDHqsBvI/qUTlExcR8n+tIB2Wl/UMvr9r/72g0+7pCxrQ7snnrvrPtiTeVENjGDavf1PnLdiu9Q+7qZfT6Y85qs+dqe8X/6S9/z+tNZUVW8wr7c8GPY+R2cXZQp2dXWVUdANe5cVVkA1eNjhDmYJdIxT5MiBV+hdmNoF5cAClMxY0UlMVcAiXIQHv8dYPGzQrBsJAVRQGLaRbOB+DUBAOP/xGcyd9iDk2xQpiNlxIXyKoQusNxFECV5OwWpNUb7NgyYIBL2jBWnneHB9oGyXOSI0Gs660pcJnEC5C3hIT6uxqhTrJnNb+GASi71zIi6K+975iZp0XD14sVIQXRy8OaTvvwsXLsRSqdtY8vUFEXLDDGTpm2XDgfKG8RXebjplEEsQovYsVrBTew69+eGlF8Q/6+ep1ssJmkV69fs/2+/23fwE9GsVOjgoAAA==</values>
+        <values>H4sIAAAAAAAA/+VUTW8bNxD9KwOeEltaS1bUNMrJsJs2QBIDVeEeokDgcmclFlxyS3Jlq4L+e4dcSlo7hiEB6anAXjg7H+/NvJmvGyYLNmHjXAxzIX4aj4aDwYi+vBwW74aDdyjGP78t3rIe07xC8lRmMVe4QkWmFVdNsN1zq+lZSFcrvr5L1j/JKvWCfoilVIVFzSZfv/VYzS2l8mjZZPPk17FYFM8JwIR9SkCewebXdTCJpZEC0/tTCrveGY0tAoxBj+GDR10g1S+5cthjFdcF98au9xaLvLjV6mBYSu0pGwvOD07+Q/XeDIJficRIYPtv/5yn/rTm8oZ7PvW2Eb6xybUF66gXmz3Ffh++GI3Q73ca3oG+7R18P+rSdLxk+0yew67nYTZPZpicL7vOv1hrbMcV0zv5jrY0uQJL3ih/fTqD4dEMLk9hMDqBwZvAoG3+be2lITWyYdAMz9VuNEY1lf7S6ozt+d49BpqsN48XIZFqHEkA6yCzoJskonK6NPe/7zTyQeqIKP1URnC1f3HvrcwbH/q7YaiwokTzitc1NWJeW7OSMZjAVtlC0SMrlbmnok4udMZFoJaRqnn2gew30XzHrQw0P1MaCt72mFu7a8WdO5AlCc//bgKSlnriMI+NiiHCytpfUYEVJrih/XGdL0cvrTOOH69vhc7xBXZmNV1rAc43OfRnDYUjfNRChvoT2GxckweOmUy2TDdVjna77VEM942bAPSAGlLFgB54SSU8r+oJfH+y/tNap13BI9q2U/fnfc+ebWS6hI7EE/elewmnO+NuGX/YJbwcj3/MKXzuuHy/ridt6/9pGamtuLMFpF1t0PMlZ3ZxNtNnZ1eCmu4goLy4irAhwIbGEVPwS4SymEeLyf9C4TOYxgRQNc6DRRqqBg5xnzMIGW+D2KDdHpAOTFk69JCv4XwIUkM81/Ab6U6FElNsmxXBrLhUoUVg4ugdJClBUxOw2hLUEDNj2YwBL2nBdvBCOD7QNiqcEBoLbmmsp8YLiMte7BwzmuxigTYTjbVhz6NjmFzkRVXfh1yJ2T5LMF7MdDLPXjwmhO18Xy7dlbnUdePd0/NCjjN2uDBHRQZnhPOZDpH7g3RUqFCGVkMbEjak0p0zFlNovIdfg6Jpb/EP+vnqdbbAdrtevX7Pttvtt38BMLQ1r1kKAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d34b6cf5476e831006cbf5e3416d43f1"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=829a60b5476e831006cbf5e3416d435d"/>
@@ -378,52 +208,6 @@
         <url/>
         <url_target/>
     </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>status</element>
-        <help/>
-        <hint/>
-        <label>Status</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_829a60b5476e831006cbf5e3416d435d</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:27:26</sys_created_on>
-        <sys_id>b13be8f5476e831006cbf5e3416d4340</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:27:26</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>comment</element>
-        <help/>
-        <hint/>
-        <label>Comment</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_829a60b5476e831006cbf5e3416d435d</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:27:26</sys_created_on>
-        <sys_id>b93be8f5476e831006cbf5e3416d4338</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:27:26</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_829a60b5476e831006cbf5e3416d435d"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_829a60b5476e831006cbf5e3416d435d"/>
     <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
@@ -441,7 +225,7 @@
         <description>Subflow for starting integration process with external application - ServiceDesk</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>sync_to_external_app_stub</internal_name>
-        <label_cache>[{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}}]</label_cache>
+        <label_cache>[{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}}]</label_cache>
         <master>true</master>
         <name>Sync to External App (Stub)</name>
         <natlang/>
@@ -458,7 +242,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bfbca8b9476e831006cbf5e3416d43d6</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -466,7 +250,7 @@
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 12:24:32</sys_updated_on>
+        <sys_updated_on>2026-08-27 12:33:42</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -486,177 +270,7 @@
         <sys_updated_on>2026-08-07 09:34:08</sys_updated_on>
     </sys_flow_cat_variable_model>
     <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f3bca8b9476e831006cbf5e3416d43d8"/>
-    <sys_hub_flow_input action="delete_multiple" query="model=bfbca8b9476e831006cbf5e3416d43d6^sys_idNOT IN44cca8b9476e831006cbf5e3416d43ee,c8cca8b9476e831006cbf5e3416d43f9,fbbca8b9476e831006cbf5e3416d43d9"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=dfae1150-138b-41b4-a1f9-0dabf855a07b</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>status</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Status</label>
-        <mandatory>true</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Sync to External App (Stub)">bfbca8b9476e831006cbf5e3416d43d6</model>
-        <model_id>bfbca8b9476e831006cbf5e3416d43d6</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_bfbca8b9476e831006cbf5e3416d43d6</name>
-        <next_element/>
-        <order>2</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:34:08</sys_created_on>
-        <sys_id>44cca8b9476e831006cbf5e3416d43ee</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:34:08</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=44cca8b9476e831006cbf5e3416d43ee"/>
-    <sys_hub_flow_input action="INSERT_OR_UPDATE">
-        <active>true</active>
-        <array>false</array>
-        <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=168bda92-6d55-48c8-a0df-4845226668ff</attributes>
-        <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
-        <choice/>
-        <choice_field/>
-        <choice_table/>
-        <column_label/>
-        <comments/>
-        <create_roles/>
-        <default_value/>
-        <defaultsort/>
-        <delete_roles/>
-        <dependent/>
-        <dependent_on_field/>
-        <display>false</display>
-        <dynamic_creation>false</dynamic_creation>
-        <dynamic_creation_script/>
-        <dynamic_default_value/>
-        <dynamic_ref_qual/>
-        <element>comment</element>
-        <element_reference>false</element_reference>
-        <foreign_database/>
-        <formula/>
-        <function_definition/>
-        <function_field>false</function_field>
-        <help/>
-        <hint/>
-        <internal_type display_value="String">string</internal_type>
-        <label>Comment</label>
-        <mandatory>false</mandatory>
-        <max_length>8000</max_length>
-        <model display_value="Sync to External App (Stub)">bfbca8b9476e831006cbf5e3416d43d6</model>
-        <model_id>bfbca8b9476e831006cbf5e3416d43d6</model_id>
-        <model_table>sys_hub_flow_snapshot</model_table>
-        <name>var__m_sys_hub_flow_input_bfbca8b9476e831006cbf5e3416d43d6</name>
-        <next_element/>
-        <order>3</order>
-        <primary>false</primary>
-        <read_only>false</read_only>
-        <read_only_option/>
-        <read_roles/>
-        <reference/>
-        <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
-        <reference_key/>
-        <reference_qual/>
-        <reference_qual_condition/>
-        <reference_type/>
-        <sizeclass/>
-        <spell_check>false</spell_check>
-        <staged>false</staged>
-        <sys_class_name>sys_hub_flow_input</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:34:08</sys_created_on>
-        <sys_id>c8cca8b9476e831006cbf5e3416d43f9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package/>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:34:08</sys_updated_on>
-        <table_reference>false</table_reference>
-        <text_index>false</text_index>
-        <unique>false</unique>
-        <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
-        <widget/>
-        <write_roles/>
-        <xml_view>false</xml_view>
-    </sys_hub_flow_input>
-    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c8cca8b9476e831006cbf5e3416d43f9"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=bfbca8b9476e831006cbf5e3416d43d6^sys_idNOT INfbbca8b9476e831006cbf5e3416d43d9"/>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
@@ -761,65 +375,19 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-07 09:34:08</sys_created_on>
         <sys_id>cccce8b9476e831006cbf5e3416d430c</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 12:24:32</sys_updated_on>
+        <sys_updated_on>2026-08-27 12:33:42</sys_updated_on>
         <ui_id>9da5cb2c-f54e-4f4d-ab30-610f01dcbc97</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+VUTW/bRhD9K4M9JbZES1bUNMrJsJs2QBIDVeEeokBYkkNpi+WS3Q/ZqqD/3tnlkqIdQ7CAAD0U4GUf38y8+fy6YyJnMzZNs3GaZT9NJ+PRaEJfWozzd+PRO8ymP7/N37IBU7xEYspqtZS4QUnQhkvnsXuuFT1zYWrJt3cR/ZNQoVb0I1sLmWtUbPb124DVXJMri5rNdk9+vVSL5CkJmLFPUcgz2uy29lC2rkSG8f0pml23YKVzL2M0YPhgUeVI8QsuDQ5YyVXObaW3HaKR57dKHoC1UJa8MU9+MOIfivdm5HkFUkYZNv+65zLWp4GLG2753GqXWacjtRFrqBa7LsXhEL5UCmE47BW8J30/OHA/qqLqsUTzjMxxn3nozZMeRvJln/yL1pXuUTG+I3eyp87lWHAn7fXpGYxfnMHlKRlMTsjgjc+gKf5tbUVF08jGfmZ4KtvWVNKV6kszZ6zL9+6x0IjePF6EmJQzNAJY+zHzcxOHqJivq/vf2xn5IFRQFH/KKuOye3FrtUid9fXdMZRYkqNlyeuaCrGsdbURwZjElslK0iMpZHVPQY1YqYRnPrWEpponHwi/CfAd18Kn+ZnckPF+wMzWXEtuzCFZGuHl384raVKPOSxDoYJJpkVtryjABqNcX/6wzpeTY+uM08frW6IxfIW9Xs23KgNjXQrDhSNzhI8qEz7+DHY741KfYyIilihXpqj3+wHZcOvMDHqsBvI/qUTlExcR8n+tIB2Wl/UMvr9r/72g0+7pCxrQ7snnrvrPtiTeVENjGDavf1PnLdiu9Q+7qZfT6Y85qs+dqe8X/6S9/z+tNZUVW8wr7c8GPY+R2cXZQp2dXWVUdANe5cVVkA1eNjhDmYJdIxT5MiBV+hdmNoF5cAClMxY0UlMVcAiXIQHv8dYPGzQrBsJAVRQGLaRbOB+DUBAOP/xGcyd9iDk2xQpiNlxIXyKoQusNxFECV5OwWpNUb7NgyYIBL2jBWnneHB9oGyXOSI0Gs660pcJnEC5C3hIT6uxqhTrJnNb+GASi71zIi6K+975iZp0XD14sVIQXRy8OaTvvwsXLsRSqdtY8vUFEXLDDGTpm2XDgfKG8RXebjplEEsQovYsVrBTew69+eGlF8Q/6+ep1ssJmkV69fs/2+/23fwE9GsVOjgoAAA==</values>
+        <values>H4sIAAAAAAAA/+VUTW8bNxD9KwOeEltaS1bUNMrJsJs2QBIDVeEeokDgcmclFlxyS3Jlq4L+e4dcSlo7hiEB6anAXjg7H+/NvJmvGyYLNmHjXAxzIX4aj4aDwYi+vBwW74aDdyjGP78t3rIe07xC8lRmMVe4QkWmFVdNsN1zq+lZSFcrvr5L1j/JKvWCfoilVIVFzSZfv/VYzS2l8mjZZPPk17FYFM8JwIR9SkCewebXdTCJpZEC0/tTCrveGY0tAoxBj+GDR10g1S+5cthjFdcF98au9xaLvLjV6mBYSu0pGwvOD07+Q/XeDIJficRIYPtv/5yn/rTm8oZ7PvW2Eb6xybUF66gXmz3Ffh++GI3Q73ca3oG+7R18P+rSdLxk+0yew67nYTZPZpicL7vOv1hrbMcV0zv5jrY0uQJL3ih/fTqD4dEMLk9hMDqBwZvAoG3+be2lITWyYdAMz9VuNEY1lf7S6ozt+d49BpqsN48XIZFqHEkA6yCzoJskonK6NPe/7zTyQeqIKP1URnC1f3HvrcwbH/q7YaiwokTzitc1NWJeW7OSMZjAVtlC0SMrlbmnok4udMZFoJaRqnn2gew30XzHrQw0P1MaCt72mFu7a8WdO5AlCc//bgKSlnriMI+NiiHCytpfUYEVJrih/XGdL0cvrTOOH69vhc7xBXZmNV1rAc43OfRnDYUjfNRChvoT2GxckweOmUy2TDdVjna77VEM942bAPSAGlLFgB54SSU8r+oJfH+y/tNap13BI9q2U/fnfc+ebWS6hI7EE/elewmnO+NuGX/YJbwcj3/MKXzuuHy/ridt6/9pGamtuLMFpF1t0PMlZ3ZxNtNnZ1eCmu4goLy4irAhwIbGEVPwS4SymEeLyf9C4TOYxgRQNc6DRRqqBg5xnzMIGW+D2KDdHpAOTFk69JCv4XwIUkM81/Ab6U6FElNsmxXBrLhUoUVg4ugdJClBUxOw2hLUEDNj2YwBL2nBdvBCOD7QNiqcEBoLbmmsp8YLiMte7BwzmuxigTYTjbVhz6NjmFzkRVXfh1yJ2T5LMF7MdDLPXjwmhO18Xy7dlbnUdePd0/NCjjN2uDBHRQZnhPOZDpH7g3RUqFCGVkMbEjak0p0zFlNovIdfg6Jpb/EP+vnqdbbAdrtevX7Pttvtt38BMLQ1r1kKAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cccce8b9476e831006cbf5e3416d430c"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bfbca8b9476e831006cbf5e3416d43d6"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bfbca8b9476e831006cbf5e3416d43d6"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=bfbca8b9476e831006cbf5e3416d43d6"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=bfbca8b9476e831006cbf5e3416d43d6"/>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>comment</element>
-        <help/>
-        <hint/>
-        <label>Comment</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_bfbca8b9476e831006cbf5e3416d43d6</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:34:08</sys_created_on>
-        <sys_id>0ccce8b9476e831006cbf5e3416d4300</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:34:08</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
-    <sys_documentation action="INSERT_OR_UPDATE">
-        <element>status</element>
-        <help/>
-        <hint/>
-        <label>Status</label>
-        <language>en</language>
-        <name>var__m_sys_hub_flow_input_bfbca8b9476e831006cbf5e3416d43d6</name>
-        <plural/>
-        <sys_class_name>sys_documentation</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-07 09:34:08</sys_created_on>
-        <sys_id>44cca8b9476e831006cbf5e3416d43f5</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
-        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
-        <sys_policy/>
-        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name/>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 09:34:08</sys_updated_on>
-        <url/>
-        <url_target/>
-    </sys_documentation>
     <sys_documentation action="INSERT_OR_UPDATE">
         <element>incident</element>
         <help/>
@@ -856,16 +424,16 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_subflow_plan","id":"10cce8b9476e831006cbf5e3416d4324","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
         <plan_id display_value="Sync to External App (Stub)">829a60b5476e831006cbf5e3416d435d</plan_id>
-        <snapshot>d2291c3647ee831006cbf5e3416d43a5</snapshot>
+        <snapshot>5d67985c474303d006cbf5e3416d433f</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-07 09:34:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10cce8b9476e831006cbf5e3416d4324</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-07 12:24:32</sys_updated_on>
+        <sys_updated_on>2026-08-27 12:33:42</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
