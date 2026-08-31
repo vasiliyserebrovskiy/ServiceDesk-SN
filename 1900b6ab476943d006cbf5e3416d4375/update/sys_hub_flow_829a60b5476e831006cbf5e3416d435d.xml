@@ -5,7 +5,7 @@
         <active>true</active>
         <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=1739337000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2007013000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>29000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -16,7 +16,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>sync_to_external_app_stub</internal_name>
-        <label_cache>[{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}},{"name":"a93c092f-8527-470d-8346-c2986a2c0458.accesstokencookie","label":"2 - ServiceDesk Login➛accessTokenCookie","type":"string","base_type":"string","usedInstances":{"b7da7da9-05f1-40eb-b3f2-a9d69e835b4e":["accesstokencookie"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"string","uiUniqueId":"611d4841-e5b2-469a-af38-5b12b98b8d74"}},{"name":"a93c092f-8527-470d-8346-c2986a2c0458.refreshtokencookie","label":"2 - ServiceDesk Login➛refreshTokenCookie","type":"string","base_type":"string","usedInstances":{"b7da7da9-05f1-40eb-b3f2-a9d69e835b4e":["refreshtokencookie"]},"attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"55ad6c0a-4734-4085-8f18-c9a020912c23"}}]</label_cache>
+        <label_cache>[{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}},{"name":"a93c092f-8527-470d-8346-c2986a2c0458.accesstokencookie","label":"2 - ServiceDesk Login➛accessTokenCookie","reference_display":"accessTokenCookie","type":"string","base_type":"string","usedInstances":{"b7da7da9-05f1-40eb-b3f2-a9d69e835b4e":["accesstokencookie"],"e61b36ec-be41-4874-888d-8be65d7f53dc":["accesstokencookie"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"611d4841-e5b2-469a-af38-5b12b98b8d74"}},{"name":"a93c092f-8527-470d-8346-c2986a2c0458.refreshtokencookie","label":"2 - ServiceDesk Login➛refreshTokenCookie","reference_display":"refreshTokenCookie","type":"string","base_type":"string","usedInstances":{"b7da7da9-05f1-40eb-b3f2-a9d69e835b4e":["refreshtokencookie"],"e61b36ec-be41-4874-888d-8be65d7f53dc":["refreshtokencookie"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"55ad6c0a-4734-4085-8f18-c9a020912c23"}},{"name":"subflow.incident","label":"Input➛Incident","reference":"x_1952794_servic_0_servicedesk_incident","reference_display":"servicedesk incident","type":"reference","base_type":"reference","column_name":"","usedInstances":{"e61b36ec-be41-4874-888d-8be65d7f53dc":["incident"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7fae1853-3205-427f-9213-62981032e625","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master_snapshot>bfbca8b9476e831006cbf5e3416d43d6</master_snapshot>
         <master_snapshot_digest/>
         <name>Sync to External App (Stub)</name>
@@ -29,7 +29,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -37,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>829a60b5476e831006cbf5e3416d435d</sys_id>
-        <sys_mod_count>43</sys_mod_count>
+        <sys_mod_count>56</sys_mod_count>
         <sys_name>Sync to External App (Stub)</sys_name>
         <sys_overrides/>
         <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
@@ -45,11 +45,11 @@
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name>sys_hub_flow_829a60b5476e831006cbf5e3416d435d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-30 12:56:01</sys_updated_on>
+        <sys_updated_on>2026-08-30 14:55:01</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>a487b70d47070fd006cbf5e3416d4327</version_record>
+        <version_record>49c2d015478b0fd006cbf5e3416d43d2</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=829a60b5476e831006cbf5e3416d435d"/>
     <sys_variable_value action="delete_multiple" query="document_key=829a60b5476e831006cbf5e3416d435d"/>
@@ -156,13 +156,13 @@
     <sys_hub_flow_output action="delete_multiple" query="model=829a60b5476e831006cbf5e3416d435d"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=829a60b5476e831006cbf5e3416d435d"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=829a60b5476e831006cbf5e3416d435d"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=829a60b5476e831006cbf5e3416d435d^sys_idNOT IN74f6b78947070fd006cbf5e3416d439f,ca27bf0147070fd006cbf5e3416d4339,d34b6cf5476e831006cbf5e3416d43f1"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=829a60b5476e831006cbf5e3416d435d^sys_idNOT IN74f6b78947070fd006cbf5e3416d439f,ca27bf0147070fd006cbf5e3416d4339,d34b6cf5476e831006cbf5e3416d43f1,f8129811478b0fd006cbf5e3416d43bd"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="ServiceDesk Login">b6eda34d47830fd006cbf5e3416d438b</action_type>
         <action_type_parent display_value="ServiceDesk Login">1c1bd7cd478fcbd006cbf5e3416d4374</action_type_parent>
         <attributes/>
         <comment>Login to external ServiceDesk Application</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>b6eda34d47830fd006cbf5e3416d438b</compiled_snapshot>
         <display_text/>
         <flow display_value="Sync to External App (Stub)">829a60b5476e831006cbf5e3416d435d</flow>
         <generation_source/>
@@ -172,10 +172,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-30 12:53:32</sys_created_on>
         <sys_id>74f6b78947070fd006cbf5e3416d439f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-30 12:55:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-31 12:59:02</sys_updated_on>
         <ui_id>a93c092f-8527-470d-8346-c2986a2c0458</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
@@ -186,23 +186,23 @@
         <action_type_parent display_value="ServiceDesk Logout">0e34ff0147070fd006cbf5e3416d434a</action_type_parent>
         <attributes/>
         <comment>Logout from external ServiceDesk Application</comment>
-        <compiled_snapshot/>
+        <compiled_snapshot>a3c5bb8547070fd006cbf5e3416d431d</compiled_snapshot>
         <display_text/>
         <flow display_value="Sync to External App (Stub)">829a60b5476e831006cbf5e3416d435d</flow>
         <generation_source/>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-30 12:54:26</sys_created_on>
         <sys_id>ca27bf0147070fd006cbf5e3416d4339</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-30 12:55:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-31 12:59:02</sys_updated_on>
         <ui_id>b7da7da9-05f1-40eb-b3f2-a9d69e835b4e</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/+1Ty27bMBD8F50lgxL19C1oEaBA2wBNmksQCBS5solQpCJRTlzD/96lJTlFXgiaHHrokfuYnZ3lXO08KbylBzVPqipP4oxkpBaEpLyqE6BxmIqYRqHne5o1gJWMc+h7a25Ac2NuJGBqw9TgcrsdKygnRVQHeRJlAaKJIKdxGvCoyFMWcRIn+eIJxH6PIEL2rWLby4/A4mupRAfaW15d+17LOuRuofOWu0cpu22hVKwChSPPbSf1CtvfKsncOJK4cCQ+zZq8Ipcbiql+Hmc64biFvgf3FrQAHF8z1YPvNUwLZk23PUY6YOJMq4fAWmqLaJ4rvu/lL4TOCSGusgZclMOYPT7LSekxzNdGcjhrrTR6jFhWqamHGzU0+vu4irsR1GxQdr4RRoYe8aB1rB2NiVN9vjZ3P+aBp1IfFpySynCmji9mUYZqsNC76wzyAsX5+vggoKBB/LJhbYuRsu3MRh4wkWKzWCl8LGpl7pBLL1cav4XbZ4HascUpxj8fwpesk265bwiDzf407s9bDPKnlrcDfHFfIIqyIqEsDUhd0SAmEQuKNImDjCUhqWPIQ6i9/UHa8nZwS40iTXKUo6JY0PNOtvYESW1g2nzvT9Zj9LV/RrOHv4RjOujX7/LeU4x3mO8FsI9w3xtUmRsnFs/a71nJXvBf9N9//5j/qOAQxlQEtCIQxByKoGIpD+KQ0ggESQUN/9p/178BD+b4iPwGAAA=</values>
+        <values>H4sIAAAAAAAA/+1TwU7cMBD9F583KydOslluFQipUlukQrmgajWxx6yF1wmxA2xX++8dk+xSAUUgOFU9emb85r1nv4sNM4odMNSyqOuqyGd8xrXivJS1LlDkaalykaVswhyskCZBSvQ+NFfoZNNcGaTWDdg+9jYbmAvJ55lOqiKbJYSmkkrkZSKzeVVCJnleVNMnENstgSjjWwvr84/AkktjVYeOHVz8nLAWOuIesGMHm0et14q3UKPdqz+L6w536l8wJqzb2PKhM+5yPH8ZoU53xaZTkVo6YXgX0CkkThqsxwlbgVMQmm69r3QI6sTZh8LSuEBoLA7fefOL9lWc8zipkXRKHLr742I0eijrIwhAVHoZ+m4clcvGkJbBIYUaehsO/6wNAydtMI0brgSo7e52Y/uV+zaYwvYAu3elSu+JBLZRauQ+CtGny+b2+47lsXH3roxN20iw+xME8q7uQ+SzYb05e2TzUHliNFpc0cbFCtqWKou2a27M/RYivZpeWjpMtW1uiZ03l44+V1Q4pSeA6THVj+7L59CZKPcrwdDluO6HM9c9fo6fKctm80JAmXBdiyTnGSTzssiTGRQp1zlWKWq2nTC/9ocWvH8wil5ocd1HmYNto0GLweN4RXamDZ+I1A2OXmwnY4BBvPSHxezhn9KaDv3yXQl+ivGOCP8F7G0ZfoX+XYbHfc+G+Flz3pLi7H+K/4UUCyUxzYVKRM0xySXOkxpKmeSpEBkqXiqRfmCKf/4GscNkDYgHAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=ca27bf0147070fd006cbf5e3416d4339"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
@@ -220,15 +220,39 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-07 09:27:48</sys_created_on>
         <sys_id>d34b6cf5476e831006cbf5e3416d43f1</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>27</sys_mod_count>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-30 12:55:55</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-31 12:59:02</sys_updated_on>
         <ui_id>9da5cb2c-f54e-4f4d-ab30-610f01dcbc97</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/91U32/bNhD+Vw58ahNbseN6bd2noFm3AmsDzEP2UBcGRZ1sDhSpkZQTz/D/viNFK0paBPawvQzQC0/34/vuvrsvOyYLNmPTXIxzIX6YTsaj0YS+vBwXb8ejtyimb14Xr9mAaV4heSqzWircoCLThqsm2O641fQspKsV394m6+9klXpFP8RaqsKiZrMvXwes5pZSebRstnvyy29rXCqeU/YZe782UiCFH4vwEPhLgvcdxKEAmcQhtbFFwDEaMLz3qAukUiVXDges4rrg3thtZ7HIixutHgxrqT1lY8H53sm/KPWrUfArkSgJbP91z2VqUGtuMTgivuuQD4fw2WiE4bDX3R7M/eDB96MuTc9Lts/kOe57PgziycCS82Xf+Udrje25Ynon38mexlRgyRvl35/OYHw0g8tTGExOYPAqMGibf1N7aUh6bBykwXOVwAqjmkp/buXDOr63j4Em6/Vj1SdSjaNxYx0kFTSSBFPO1+bu14MePkgdEaWfygiuuhf33sq88aG/O4YKK0q0rHhdUyOWtTUbGYMJbJWtFD2yUpk7KurkSmdcBGoZKZhnH8h+Hc233MpA8xOloeB9FOfyzybUbYkmxMvYluDghJW1v6J0G0zgQrPjTl5OnttJnD7ewQqd4yvsTWa+1QKcb3IYLhoKR/iohQz1Z7DbuSYPjDKZbJluqhztfj+gGO4bNwMYANGvYsAAvKQSnlf1DL69Rv9prX924OY04SjqY5t5CPzUdfK77U1Hzh3SH3bvXztyl9PpaVeuW7ST9uz/u0beNniwBVz9+dHzOWd2cbbQZ2dXgi6vg4Dp4iqChAASGke8wK8RymIZLSb/A4XPYB4TQNU4DxZ9YzVwiJuYQch4E1QCre5BOjBl6dBDvoXzMUgN8azCzyQYFUrMsW1NBLPhUoWGgImDdpA0AE1NwGpLUEPMgmULBryk1TjAC+F4T3ukcEZoLLi1sZ7aLCCuaXFwzGiOqxXaTDTWhg2NjmFOkRdVfRdyJWZdlmC8WOhkXjx7BgjbeVcuXYSl1HXj3dPDQI4L9nAbjooMzgjnCx0iu1NyVKhQhhZBG5IxpNK9AxRTaLyDn4J+r6nKb/Tzxctshe0uvXj5ju33+69/A6viph3uCQAA</values>
+        <values>H4sIAAAAAAAA/+VUTW8bNxD9KwOeEltaS1bUNMrJsJs2QBIDVeEeokDgcmclFlxyS3Jlq4L+e4dcSlo7hiEB6anAXjg7H+/NvJmvGyYLNmHjXAxzIX4aj4aDwYi+vBwW74aDdyjGP78t3rIe07xC8lRmMVe4QkWmFVdNsN1zq+lZSFcrvr5L1j/JKvWCfoilVIVFzSZfv/VYzS2l8mjZZPPk17FYFM8JwIR9SkCewebXdTCJpZEC0/tTCrveGY0tAoxBj+GDR10g1S+5cthjFdcF98au9xaLvLjV6mBYSu0pGwvOD07+Q/XeDIJficRIYPtv/5yn/rTm8oZ7PvW2Eb6xybUF66gXmz3Ffh++GI3Q73ca3oG+7R18P+rSdLxk+0yew67nYTZPZpicL7vOv1hrbMcV0zv5jrY0uQJL3ih/fTqD4dEMLk9hMDqBwZvAoG3+be2lITWyYdAMz9VuNEY1lf7S6ozt+d49BpqsN48XIZFqHEkA6yCzoJskonK6NPe/7zTyQeqIKP1URnC1f3HvrcwbH/q7YaiwokTzitc1NWJeW7OSMZjAVtlC0SMrlbmnok4udMZFoJaRqnn2gew30XzHrQw0P1MaCt72mFu7a8WdO5AlCc//bgKSlnriMI+NiiHCytpfUYEVJrih/XGdL0cvrTOOH69vhc7xBXZmNV1rAc43OfRnDYUjfNRChvoT2GxckweOmUy2TDdVjna77VEM942bAPSAGlLFgB54SSU8r+oJfH+y/tNap13BI9q2U/fnfc+ebWS6hI7EE/elewmnO+NuGX/YJbwcj3/MKXzuuHy/ridt6/9pGamtuLMFpF1t0PMlZ3ZxNtNnZ1eCmu4goLy4irAhwIbGEVPwS4SymEeLyf9C4TOYxgRQNc6DRRqqBg5xnzMIGW+D2KDdHpAOTFk69JCv4XwIUkM81/Ab6U6FElNsmxXBrLhUoUVg4ugdJClBUxOw2hLUEDNj2YwBL2nBdvBCOD7QNiqcEBoLbmmsp8YLiMte7BwzmuxigTYTjbVhz6NjmFzkRVXfh1yJ2T5LMF7MdDLPXjwmhO18Xy7dlbnUdePd0/NCjjN2uDBHRQZnhPOZDpH7g3RUqFCGVkMbEjak0p0zFlNovIdfg6Jpb/EP+vnqdbbAdrtevX7Pttvtt38BMLQ1r1kKAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=d34b6cf5476e831006cbf5e3416d43f1"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="ServiceDesk Incident Sync">6360901d474b0fd006cbf5e3416d435c</action_type>
+        <action_type_parent display_value="ServiceDesk Incident Sync">96a4081547c70fd006cbf5e3416d438c</action_type_parent>
+        <attributes/>
+        <comment>Send a PUT request to synchronize with the external ServiceDesk Application</comment>
+        <compiled_snapshot>6360901d474b0fd006cbf5e3416d435c</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Sync to External App (Stub)">829a60b5476e831006cbf5e3416d435d</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-30 14:52:03</sys_created_on>
+        <sys_id>f8129811478b0fd006cbf5e3416d43bd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2026-08-31 12:59:02</sys_updated_on>
+        <ui_id>e61b36ec-be41-4874-888d-8be65d7f53dc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V204bMRD9lcrPu5Gzd+etAiFVaotUKC8Irby+JBbeC7Y3kEb5985mNyEhAYFAPFR9yx6PZ84cz5lcL5HiaIKCMMEEj3mURgWWHOOEFTIWYTROeBQmAnmooqWASFUxxUXlAJlT3XbQcmnbQur6frQ5XK3gmCvbaLq4GqIAYTOluREVmlzfeKihBlI6YdBk+eTotZw0LYTeJ3VI0y2aDjFCCijAxAB9H+7+2sFrwzs6Yw+JBycqLoCHpNoKD5W04tTVZoEmzrQAGEH5eaUX24iZgnLrPkv6YNUfKBoG3k7dCXrIxyQOUhLlVpi5Yjkefggu7G2+Q3p7Kx9khNs7oV92QuUpdfQCSDHXmq3SNUTaXk0uJG21O9nF+oDzxqm66q84Wui3cWS1bsvqZy842tbZefDWAn/RdEp22gxCyYtZfb+V/UxVa9GHQ10zqndCBTVsdqaE7kaiassCYj1EnTOqaF3XzhK16vLwjXvw2CsLLUrgk5e0aVQ1zRtTz9WaA7RUjqYaPkbdPAN3q6bViLJOphG8Px2dAX66hq+oUZ1mPyDNmlSrflfqrhXfOqppFkSxYMRnkgR+lJKxX5Ax8QOZxhmOJKYsRCsP2YU90dTaRxmhifyu7UToRR3ky/uH6q4woxr3FUjNxaDUyhuMTNOXTJOSR4dQBsNgXX0LqtT1rRJ7jqYkZJgE0s9gFoA+5n4WRonPApIlNGA4irPRQYpjvn9XrrdtjFc0v9kYfbnLrtzJpvsXhBl2iIWpq6ZPFsjFBhy2R/Dy9hiQ16yPDGO8v0Ce2QwfvwU+x97P2Hgr876Ht0J/ioFDLgjlSeYnWRr5EZbYJ1kBLl47OEsIjPCnGzjjj3MKZYyws3c5+DDHOyz8TLKP9PC6/42Hh3pHTXxUnLe4OPzv4n/BxVKwgiUS/neDiPsRiSM/S4OxH3P4DmNZSBl8oItv/gJYfd3eUQsAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f8129811478b0fd006cbf5e3416d43bd"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=829a60b5476e831006cbf5e3416d435d"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=829a60b5476e831006cbf5e3416d435d"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=829a60b5476e831006cbf5e3416d435d"/>
@@ -273,7 +297,7 @@
         <description>Subflow for starting integration process with external application - ServiceDesk</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>sync_to_external_app_stub</internal_name>
-        <label_cache>[{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}}]</label_cache>
+        <label_cache>[{"name":"subflow.comment","label":"Input➛Comment","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"168bda92-6d55-48c8-a0df-4845226668ff"}},{"name":"subflow.status","label":"Input➛Status","type":"string","base_type":"string","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]},"attributes":{"sourceUiUniqueId":"","sourceType":"","sourceId":"","uiUniqueId":"dfae1150-138b-41b4-a1f9-0dabf855a07b"}},{"name":"subflow.incident.number","label":"Input➛Incident➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1952794_servic_0_servicedesk_incident","column_name":"number","usedInstances":{"9da5cb2c-f54e-4f4d-ab30-610f01dcbc97":["log_message"]}},{"name":"a93c092f-8527-470d-8346-c2986a2c0458.accesstokencookie","label":"2 - ServiceDesk Login➛accessTokenCookie","reference_display":"accessTokenCookie","type":"string","base_type":"string","usedInstances":{"b7da7da9-05f1-40eb-b3f2-a9d69e835b4e":["accesstokencookie"],"e61b36ec-be41-4874-888d-8be65d7f53dc":["accesstokencookie"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"611d4841-e5b2-469a-af38-5b12b98b8d74"}},{"name":"a93c092f-8527-470d-8346-c2986a2c0458.refreshtokencookie","label":"2 - ServiceDesk Login➛refreshTokenCookie","reference_display":"refreshTokenCookie","type":"string","base_type":"string","usedInstances":{"b7da7da9-05f1-40eb-b3f2-a9d69e835b4e":["refreshtokencookie"],"e61b36ec-be41-4874-888d-8be65d7f53dc":["refreshtokencookie"]},"attributes":{"uiType":"string","uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiUniqueId":"55ad6c0a-4734-4085-8f18-c9a020912c23"}},{"name":"subflow.incident","label":"Input➛Incident","reference":"x_1952794_servic_0_servicedesk_incident","reference_display":"servicedesk incident","type":"reference","base_type":"reference","column_name":"","usedInstances":{"e61b36ec-be41-4874-888d-8be65d7f53dc":["incident"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"7fae1853-3205-427f-9213-62981032e625","sourceUiUniqueId":"","sourceType":"","sourceId":""}}]</label_cache>
         <master>true</master>
         <name>Sync to External App (Stub)</name>
         <natlang/>
@@ -290,7 +314,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bfbca8b9476e831006cbf5e3416d43d6</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -298,7 +322,7 @@
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-27 12:33:42</sys_updated_on>
+        <sys_updated_on>2026-08-30 14:54:59</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -407,7 +431,55 @@
     <sys_hub_flow_output action="delete_multiple" query="model=bfbca8b9476e831006cbf5e3416d43d6"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=bfbca8b9476e831006cbf5e3416d43d6"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=bfbca8b9476e831006cbf5e3416d43d6"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bfbca8b9476e831006cbf5e3416d43d6^sys_idNOT INcccce8b9476e831006cbf5e3416d430c"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=bfbca8b9476e831006cbf5e3416d43d6^sys_idNOT INb3b25015478b0fd006cbf5e3416d4382,b4f8734147470fd006cbf5e3416d4388,cccce8b9476e831006cbf5e3416d430c,f8f8734147470fd006cbf5e3416d4389"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="ServiceDesk Incident Sync">6360901d474b0fd006cbf5e3416d435c</action_type>
+        <action_type_parent display_value="ServiceDesk Incident Sync">96a4081547c70fd006cbf5e3416d438c</action_type_parent>
+        <attributes/>
+        <comment>Send a PUT request to synchronize with the external ServiceDesk Application</comment>
+        <compiled_snapshot>6360901d474b0fd006cbf5e3416d435c</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Sync to External App (Stub)">bfbca8b9476e831006cbf5e3416d43d6</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-30 14:54:58</sys_created_on>
+        <sys_id>b3b25015478b0fd006cbf5e3416d4382</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-30 14:54:58</sys_updated_on>
+        <ui_id>e61b36ec-be41-4874-888d-8be65d7f53dc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V204bMRD9lcrP2cjZu/NWgZAqtUUqlBeEVl5fiIX3gu0NpFH+vbPZTdiQgEBEPFR9yx6PZ84cz5lcL5HiaIr8IMYET3iYhDmWHOOY5TISQTiJeRjEAo1QSQsBkapkiovSATKnummh5dI2udTVw3hzuFrBMVe21nRx1UcBwmZKcyNKNL2+GaGaGkjphEHT5bOjt3LSNBd6l9Q+TbeoW8QIKaAAEz30vb/7a4BXhrd0JiMkHp0ouQAekmorRqigJaeuMgs0daYBwAjKz0u92EbMFJRb91nQR6v+QNHAHw3qTtFjNiGRn5Aws8LMFctw/0NwYe+yAentrayXEW4PQr8MQuUpdfQCSDHXmK3SFUTaTk0uJG20OxliXcB57VRVdlcczfX7OLJKN0X5sxMcbesMHryxwF/UrZKtNr1Q8mJWPWxlP1PlWvT+UFeM6kGooIbNzpTQ7UiUTZFD7AhR54zKG9e2s0SNutx/4w489MpCiwL4ZAWta1XeZrWp5mrNAVoqxrcaPsbtPAN3q27LMWWtTGN4fzo+A/x0DV9Ro1rNfkCaNalG/S7VfSO+tVST1A8jwYjHJPG9MCETLycT4vkyiVIcSkxZgFYjZBf2RFNrn2SEJrL7phWhE7WXL+seqr3CjKrdVyA1F71Sq1FvZJq8ZpqEPDmEMhgG66o7UKWq7pTYcTQlAcPEl14KswD0MffSIIw95pM0pj7DYZSO91Ic8v2Hcr1vY7yh+c3G6MpdtuVONt2/Iky/QyxMXXn7bIFcbMB+e/jH2h4pxnh3f7ywGI6/BD7H3S+4eKvyroW3On+KfwMuCOVx6sVpEnohltgjaQ4mXhs4jQlM8Kf7N+VPYwpljLCzDxl4P8cHHPxCsmNaeN3/xsJ9vYMePijOe0wc/DfxP2BiKVjOYgn/un7IvZBEoZcm/sSLOHwHkcyl9I9o4pu/s/hMzE8LAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b3b25015478b0fd006cbf5e3416d4382"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="ServiceDesk Login">b6eda34d47830fd006cbf5e3416d438b</action_type>
+        <action_type_parent display_value="ServiceDesk Login">1c1bd7cd478fcbd006cbf5e3416d4374</action_type_parent>
+        <attributes/>
+        <comment>Login to external ServiceDesk Application</comment>
+        <compiled_snapshot>b6eda34d47830fd006cbf5e3416d438b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Sync to External App (Stub)">bfbca8b9476e831006cbf5e3416d43d6</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-30 13:02:16</sys_created_on>
+        <sys_id>b4f8734147470fd006cbf5e3416d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-30 13:02:16</sys_updated_on>
+        <ui_id>a93c092f-8527-470d-8346-c2986a2c0458</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b4f8734147470fd006cbf5e3416d4388"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
@@ -432,6 +504,30 @@
         <values>H4sIAAAAAAAA/+VUTW8bNxD9KwOeEltaS1bUNMrJsJs2QBIDVeEeokDgcmclFlxyS3Jlq4L+e4dcSlo7hiEB6anAXjg7H+/NvJmvGyYLNmHjXAxzIX4aj4aDwYi+vBwW74aDdyjGP78t3rIe07xC8lRmMVe4QkWmFVdNsN1zq+lZSFcrvr5L1j/JKvWCfoilVIVFzSZfv/VYzS2l8mjZZPPk17FYFM8JwIR9SkCewebXdTCJpZEC0/tTCrveGY0tAoxBj+GDR10g1S+5cthjFdcF98au9xaLvLjV6mBYSu0pGwvOD07+Q/XeDIJficRIYPtv/5yn/rTm8oZ7PvW2Eb6xybUF66gXmz3Ffh++GI3Q73ca3oG+7R18P+rSdLxk+0yew67nYTZPZpicL7vOv1hrbMcV0zv5jrY0uQJL3ih/fTqD4dEMLk9hMDqBwZvAoG3+be2lITWyYdAMz9VuNEY1lf7S6ozt+d49BpqsN48XIZFqHEkA6yCzoJskonK6NPe/7zTyQeqIKP1URnC1f3HvrcwbH/q7YaiwokTzitc1NWJeW7OSMZjAVtlC0SMrlbmnok4udMZFoJaRqnn2gew30XzHrQw0P1MaCt72mFu7a8WdO5AlCc//bgKSlnriMI+NiiHCytpfUYEVJrih/XGdL0cvrTOOH69vhc7xBXZmNV1rAc43OfRnDYUjfNRChvoT2GxckweOmUy2TDdVjna77VEM942bAPSAGlLFgB54SSU8r+oJfH+y/tNap13BI9q2U/fnfc+ebWS6hI7EE/elewmnO+NuGX/YJbwcj3/MKXzuuHy/ridt6/9pGamtuLMFpF1t0PMlZ3ZxNtNnZ1eCmu4goLy4irAhwIbGEVPwS4SymEeLyf9C4TOYxgRQNc6DRRqqBg5xnzMIGW+D2KDdHpAOTFk69JCv4XwIUkM81/Ab6U6FElNsmxXBrLhUoUVg4ugdJClBUxOw2hLUEDNj2YwBL2nBdvBCOD7QNiqcEBoLbmmsp8YLiMte7BwzmuxigTYTjbVhz6NjmFzkRVXfh1yJ2T5LMF7MdDLPXjwmhO18Xy7dlbnUdePd0/NCjjN2uDBHRQZnhPOZDpH7g3RUqFCGVkMbEjak0p0zFlNovIdfg6Jpb/EP+vnqdbbAdrtevX7Pttvtt38BMLQ1r1kKAAA=</values>
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=cccce8b9476e831006cbf5e3416d430c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="ServiceDesk Logout">a3c5bb8547070fd006cbf5e3416d431d</action_type>
+        <action_type_parent display_value="ServiceDesk Logout">0e34ff0147070fd006cbf5e3416d434a</action_type_parent>
+        <attributes/>
+        <comment>Logout from external ServiceDesk Application</comment>
+        <compiled_snapshot>a3c5bb8547070fd006cbf5e3416d431d</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Sync to External App (Stub)">bfbca8b9476e831006cbf5e3416d43d6</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-30 13:02:16</sys_created_on>
+        <sys_id>f8f8734147470fd006cbf5e3416d4389</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-30 14:54:59</sys_updated_on>
+        <ui_id>b7da7da9-05f1-40eb-b3f2-a9d69e835b4e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1TwU7cMBD9F583KydOslluFQipUlukQrmgajWxx6yF1wmxA2xX++8dk+xSAUUgOFU9emb85r1nv4sNM4odMNSyqOuqyGd8xrXivJS1LlDkaalykaVswhyskCZBSvQ+NFfoZNNcGaTWDdg+9jYbmAvJ55lOqiKbJYSmkkrkZSKzeVVCJnleVNMnENstgSjjWwvr84/AkktjVYeOHVz8nLAWOuIesGMHm0et14q3UKPdqz+L6w536l8wJqzb2PKhM+5yPH8ZoU53xaZTkVo6YXgX0CkkThqsxwlbgVMQmm69r3QI6sTZh8LSuEBoLA7fefOL9lWc8zipkXRKHLr742I0eijrIwhAVHoZ+m4clcvGkJbBIYUaehsO/6wNAydtMI0brgSo7e52Y/uV+zaYwvYAu3elSu+JBLZRauQ+CtGny+b2+47lsXH3roxN20iw+xME8q7uQ+SzYb05e2TzUHliNFpc0cbFCtqWKou2a27M/RYivZpeWjpMtW1uiZ03l44+V1Q4pSeA6THVj+7L59CZKPcrwdDluO6HM9c9fo6fKctm80JAmXBdiyTnGSTzssiTGRQp1zlWKWq2nTC/9ocWvH8wil5ocd1HmYNto0GLweN4RXamDZ+I1A2OXmwnY4BBvPSHxezhn9KaDv3yXQl+ivGOCP8F7G0ZfoX+XYbHfc+G+Flz3pLi7H+K/4UUCyUxzYVKRM0xySXOkxpKmeSpEBkqXiqRfmCKf/4GscNkDYgHAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f8f8734147470fd006cbf5e3416d4389"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=bfbca8b9476e831006cbf5e3416d43d6"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=bfbca8b9476e831006cbf5e3416d43d6"/>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=bfbca8b9476e831006cbf5e3416d43d6"/>
@@ -472,16 +568,16 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"@class":"com.snc.process_flow.engine.serialization.plan_data.ChunkingPlanData","chunk_data":{"table":"sys_flow_subflow_plan","id":"10cce8b9476e831006cbf5e3416d4324","name":"plan","plan_signature":null},"plan_data":"CHUNKING_PLAN"}</plan>
         <plan_id display_value="Sync to External App (Stub)">829a60b5476e831006cbf5e3416d435d</plan_id>
-        <snapshot>5d67985c474303d006cbf5e3416d433f</snapshot>
+        <snapshot>344349e14787031406cbf5e3416d436d</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-08-07 09:34:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>10cce8b9476e831006cbf5e3416d4324</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-27 12:33:42</sys_updated_on>
+        <sys_updated_on>2026-08-30 14:55:01</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
