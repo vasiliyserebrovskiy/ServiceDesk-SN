@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sn_em_tbac_alert_clustering_tags">
+    <sn_em_tbac_alert_clustering_tags action="INSERT_OR_UPDATE">
+        <additional_info_key>t_pattern_text</additional_info_key>
+        <cmdb_key/>
+        <customize_name>false</customize_name>
+        <description/>
+        <fuzzy_algorithm>levenshtein</fuzzy_algorithm>
+        <fuzzy_similarity>90</fuzzy_similarity>
+        <match_method>exact</match_method>
+        <name>Exact match on Alert tags key "t_pattern_text"</name>
+        <pattern/>
+        <selected_field/>
+        <source>alert_tags</source>
+        <sys_class_name>sn_em_tbac_alert_clustering_tags</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 06:35:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>cb0dabeb4747071006cbf5e3416d43a4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Exact match on Alert tags key "t_pattern_text"</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sn_em_tbac_alert_clustering_tags_cb0dabeb4747071006cbf5e3416d43a4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 06:35:04</sys_updated_on>
+    </sn_em_tbac_alert_clustering_tags>
+</record_update>

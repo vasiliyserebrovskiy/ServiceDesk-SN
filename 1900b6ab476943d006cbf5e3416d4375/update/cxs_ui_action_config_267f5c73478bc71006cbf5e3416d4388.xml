@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="INSERT_OR_UPDATE">
+        <action_condition/>
+        <action_label>Attach document</action_label>
+        <action_undo_label/>
+        <action_value>attach</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type>embed_link</attachment_type>
+        <badge_label>Attached</badge_label>
+        <current_action_condition/>
+        <current_table/>
+        <order>500</order>
+        <rest_api/>
+        <search_res_config display_value="Resolved Cases">64f54a8793d02300a591f5be867ffb48</search_res_config>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.GlideRecordSearchResource</search_resource>
+        <search_ui_action display_value="Attach document">0d930ea553f601106e33ddeeff7b121d</search_ui_action>
+        <search_ui_config display_value="Case [sn_customerservice_case]">c5999c52c312310015519f2974d3aee9</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 10:15:23</sys_created_on>
+        <sys_id>267f5c73478bc71006cbf5e3416d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attach document</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>cxs_ui_action_config_267f5c73478bc71006cbf5e3416d4388</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 10:15:23</sys_updated_on>
+        <table/>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=267f5c73478bc71006cbf5e3416d4388"/>
+</record_update>

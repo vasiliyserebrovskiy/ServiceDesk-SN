@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <advanced>true</advanced>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time>1970-01-01 00:00:00</entered_time>
+        <max_drift/>
+        <name>Printer Availability Check</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <repeat_every/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month>1</run_month>
+        <run_period>1970-01-01 00:02:00</run_period>
+        <run_start>2026-09-14 12:21:31</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <run_weekinmonth>1</run_weekinmonth>
+        <script><![CDATA[(function() {
+    var THRESHOLD_MINUTES = 8;
+    var STATUS_OPERATIONAL = '1';
+    var STATUS_NON_OPERATIONAL = '2';
+
+    var gr = new GlideRecord('cmdb_ci_printer');
+    gr.addQuery('name', 'npi87c6d5');
+    gr.query();
+
+    if (gr.next()) {
+        var lastOkStr = gr.getValue('x_1952794_servic_0_last_discovered_ok');
+        if (!lastOkStr) {
+            return;
+        }
+
+        var lastOk = new GlideDateTime(lastOkStr);
+        var now = new GlideDateTime();
+        var minutesAgo = (now.getNumericValue() - lastOk.getNumericValue()) / 60000;
+
+        var newStatus = (minutesAgo > THRESHOLD_MINUTES) ? STATUS_NON_OPERATIONAL : STATUS_OPERATIONAL;
+        var currentStatus = gr.getValue('operational_status');
+
+        //gs.info('DEBUG: minutesAgo=' + minutesAgo + ' currentStatus=' + currentStatus + ' newStatus=' + newStatus);
+
+        if (currentStatus != newStatus) {
+            gr.setValue('operational_status', newStatus);
+            gr.update();
+            gs.info('Printer ' + gr.name + ' operational_status changed to ' + newStatus);
+        }
+    }
+})();]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 12:26:25</sys_created_on>
+        <sys_id>0e7ff08a479bcb9006cbf5e3416d4360</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Printer Availability Check</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sysauto_script_0e7ff08a479bcb9006cbf5e3416d4360</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 13:43:37</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

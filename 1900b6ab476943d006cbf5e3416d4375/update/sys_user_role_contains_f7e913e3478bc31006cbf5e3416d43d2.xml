@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="sn_gf.goal_user_read" name="sn_gf.goal_user_read">705d294077113010e2ab29354f5a9954</contains>
+        <role display_value="sn_ppm_read" name="sn_ppm_read">f91936270b903300a6acc93563673a09</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-07 05:11:33</sys_created_on>
+        <sys_id>f7e913e3478bc31006cbf5e3416d43d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sn_gf.goal_user_read.sn_ppm_read</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sys_user_role_contains_f7e913e3478bc31006cbf5e3416d43d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-07 05:11:33</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

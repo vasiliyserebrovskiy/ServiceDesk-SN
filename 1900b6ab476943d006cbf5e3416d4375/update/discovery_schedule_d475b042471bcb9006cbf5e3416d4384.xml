@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="discovery_schedule">
+    <discovery_schedule action="INSERT_OR_UPDATE">
+        <accel_config/>
+        <active>true</active>
+        <advanced>false</advanced>
+        <behavior/>
+        <business_calendar/>
+        <ci_id/>
+        <ci_type/>
+        <condition/>
+        <conditional>false</conditional>
+        <credential_aliases/>
+        <disco_run_type>periodically</disco_run_type>
+        <discover>CIs</discover>
+        <discovery_agent>mid</discovery_agent>
+        <entered_run_end/>
+        <entered_run_start/>
+        <entered_time/>
+        <even_if_canceled>false</even_if_canceled>
+        <include_alive>false</include_alive>
+        <location/>
+        <log_state_changes>false</log_state_changes>
+        <max_drift/>
+        <max_idle/>
+        <max_run/>
+        <mid_cluster/>
+        <mid_select_method>specific_mid</mid_select_method>
+        <mid_server display_value="MYLAPTOP-MID01">beb6be5c475f435006cbf5e3416d432b</mid_server>
+        <name>Printer Monitoring</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <quick_start>false</quick_start>
+        <repeat_every/>
+        <run_after/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_daysofweek/>
+        <run_end/>
+        <run_month/>
+        <run_period>1970-01-01 00:05:00</run_period>
+        <run_start>2026-09-14 07:00:00</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <run_weekinmonth/>
+        <script><![CDATA[var rt = new global.DiscoveryScheduleRunType(current.disco_run_type + ''); if (rt.match() || new global.DiscoveryJob(job).isRunOnce()) { var dd = new global.Discovery(); dd.discoveryStartJob(); }]]></script>
+        <service_attributes/>
+        <service_discovery>ci_type</service_discovery>
+        <service_group_attributes/>
+        <service_group_table>cmdb_ci_service_group</service_group_table>
+        <service_table>cmdb_ci_service_discovered</service_table>
+        <shazzam_batch_size>1000</shazzam_batch_size>
+        <shazzam_cluster_support>true</shazzam_cluster_support>
+        <sys_class_name>discovery_schedule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-14 11:37:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>d475b042471bcb9006cbf5e3416d4384</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Printer Monitoring</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>discovery_schedule_d475b042471bcb9006cbf5e3416d4384</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-14 11:37:41</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+        <use_snmp_version>all</use_snmp_version>
+        <vm_run/>
+        <was_created_by_system>false</was_created_by_system>
+    </discovery_schedule>
+</record_update>

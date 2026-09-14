@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="1096506cf58003100a22c0b3dfa15174" extends="cmdb_ci_hardware" label="Printer" max_length="40" name="cmdb_ci_printer" type="collection">
+        <element label="Last Discovered OK" max_length="40" name="x_1952794_servic_0_last_discovered_ok" type="glide_date_time"/>
+    </element>
+</database>
