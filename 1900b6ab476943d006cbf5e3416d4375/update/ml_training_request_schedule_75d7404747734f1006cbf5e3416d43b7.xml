@@ -24,23 +24,23 @@
         <run_end/>
         <run_month/>
         <run_period>1970-01-31 00:00:00</run_period>
-        <run_start>2026-09-14 13:23:47</run_start>
+        <run_start>2026-10-12 07:23:47</run_start>
         <run_time/>
         <run_type>periodically</run_type>
         <run_weekinmonth/>
         <solution_definition/>
         <sys_class_name>ml_training_request_schedule</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-09-14 13:23:47</sys_created_on>
-        <sys_id>e6bd89c2479fcb9006cbf5e3416d4305</sys_id>
+        <sys_created_on>2026-10-12 07:23:47</sys_created_on>
+        <sys_id>75d7404747734f1006cbf5e3416d43b7</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Closed alert similarity</sys_name>
         <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
         <sys_policy/>
         <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
-        <sys_update_name>ml_training_request_schedule_e6bd89c2479fcb9006cbf5e3416d4305</sys_update_name>
+        <sys_update_name>ml_training_request_schedule_75d7404747734f1006cbf5e3416d43b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-09-14 13:23:47</sys_updated_on>
+        <sys_updated_on>2026-10-12 07:23:47</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </ml_training_request_schedule>

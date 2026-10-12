@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="em_alert_management_rule">
+    <em_alert_management_rule action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_info/>
+        <alert_filter table="em_alert">cmdb_ci=5faf83d42517835038f32d37b0f7c830^severity=1<item display_table="cmdb_ci" display_value="npi87c6d5" endquery="false" field="cmdb_ci" goto="false" newquery="false" operator="=" or="false" value="5faf83d42517835038f32d37b0f7c830"/>
+            <item display_value="Critical" endquery="false" field="severity" goto="false" newquery="false" operator="=" or="false" value="1"/>
+        </alert_filter>
+        <assignment_group/>
+        <automatic_execution_setting>1</automatic_execution_setting>
+        <description>Auto-create incident when printer alert severity is Critical</description>
+        <error_msg/>
+        <incident_template/>
+        <kb/>
+        <migrated_from/>
+        <multiple_alert_rules>1</multiple_alert_rules>
+        <name>Printer Critical → Incident</name>
+        <order>100</order>
+        <overwrite_template/>
+        <state>1</state>
+        <submit_counter>6</submit_counter>
+        <sys_class_name>em_alert_management_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 11:33:15</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>e69b8b0f476b0fd406cbf5e3416d43c6</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Printer Critical → Incident</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>em_alert_management_rule_e69b8b0f476b0fd406cbf5e3416d43c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 12:05:22</sys_updated_on>
+        <type>incident</type>
+    </em_alert_management_rule>
+</record_update>

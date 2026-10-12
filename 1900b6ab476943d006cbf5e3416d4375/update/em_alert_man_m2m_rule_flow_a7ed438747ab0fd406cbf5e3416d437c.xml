@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="em_alert_man_m2m_rule_flow">
+    <em_alert_man_m2m_rule_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <execution>1</execution>
+        <executions_limit>1</executions_limit>
+        <link_to_flow_designer>/$flow-designer.do?sysparm_nostack=true#/sub-flow-designer/45454f6193330300415c74aff67ffbfb</link_to_flow_designer>
+        <management_rule display_value="Printer Critical → Incident">e69b8b0f476b0fd406cbf5e3416d43c6</management_rule>
+        <sub_flow display_value="Create Incident">45454f6193330300415c74aff67ffbfb</sub_flow>
+        <sys_class_name>em_alert_man_m2m_rule_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-09-30 11:42:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>a7ed438747ab0fd406cbf5e3416d437c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>em_alert_man_m2m_rule_flow_a7ed438747ab0fd406cbf5e3416d437c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-09-30 11:42:46</sys_updated_on>
+    </em_alert_man_m2m_rule_flow>
+</record_update>
