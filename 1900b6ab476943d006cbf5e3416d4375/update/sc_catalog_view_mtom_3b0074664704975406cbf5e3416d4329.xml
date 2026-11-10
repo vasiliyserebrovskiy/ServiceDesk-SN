@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>false</default>
+        <sc_catalog display_value="My Test Catalog">de9c2ef147849b1406cbf5e3416d433b</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-23 07:18:14</sys_created_on>
+        <sys_id>3b0074664704975406cbf5e3416d4329</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Test Catalog.Catalogs</sys_name>
+        <sys_package display_value="ServiceDesk Integration" source="x_1952794_servic_0">1900b6ab476943d006cbf5e3416d4375</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="Catalogs">ea3e4259d7111100f2d224837e610362</sys_portal_page>
+        <sys_scope display_value="ServiceDesk Integration">1900b6ab476943d006cbf5e3416d4375</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_3b0074664704975406cbf5e3416d4329</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-23 07:18:14</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>
